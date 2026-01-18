@@ -1,0 +1,14 @@
+2026-01-18 00:25:23.969 [info] Getting Manifest... esbenp.prettier-vscode
+2026-01-18 00:25:26.703 [info] Installing extension: esbenp.prettier-vscode {"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json","path":"/home/aechewhy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-18 00:25:28.974 [info] Extension signature verification result for esbenp.prettier-vscode: Success. Internal Code: 0. Executed: true. Duration: 420ms.
+2026-01-18 00:25:29.079 [info] Extracted extension to file:///home/aechewhy/.vscode/extensions/esbenp.prettier-vscode-12.1.1: esbenp.prettier-vscode
+2026-01-18 00:25:29.087 [info] Renamed to /home/aechewhy/.vscode/extensions/esbenp.prettier-vscode-12.1.1
+2026-01-18 00:25:29.102 [info] Marked extension as removed esbenp.prettier-vscode-12.1.0
+2026-01-18 00:25:29.109 [info] Extension installed successfully: esbenp.prettier-vscode vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json
+2026-01-18 00:27:43.035 [info] Uninstalling extension from the profile: s-nlf-fh.glassit@0.2.6 vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json
+2026-01-18 00:27:43.085 [info] Marked extension as removed s-nlf-fh.glassit-0.2.6
+2026-01-18 00:27:43.627 [info] Successfully uninstalled extension from the profile s-nlf-fh.glassit@0.2.6 vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json
+2026-01-18 00:27:46.156 [info] Getting Manifest... s-nlf-fh.glassit
+2026-01-18 00:27:46.392 [info] Installing extension: s-nlf-fh.glassit {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"},"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json","path":"/home/aechewhy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"}}
+2026-01-18 00:27:46.468 [info] Removed the extension from removed list: s-nlf-fh.glassit
+2026-01-18 00:27:46.496 [info] Extension installed successfully: s-nlf-fh.glassit vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json

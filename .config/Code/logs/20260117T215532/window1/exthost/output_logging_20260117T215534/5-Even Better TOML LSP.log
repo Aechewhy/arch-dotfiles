@@ -1,0 +1,30 @@
+ INFO registered request handler method="initialize"
+ INFO registered request handler method="textDocument/foldingRange"
+ INFO registered request handler method="textDocument/documentSymbol"
+ INFO registered request handler method="textDocument/formatting"
+ INFO registered request handler method="textDocument/completion"
+ INFO registered request handler method="textDocument/hover"
+ INFO registered request handler method="textDocument/documentLink"
+ INFO registered request handler method="textDocument/semanticTokens/full"
+ INFO registered request handler method="textDocument/prepareRename"
+ INFO registered request handler method="textDocument/rename"
+ INFO registered notification handler method="initialized"
+ INFO registered notification handler method="textDocument/didOpen"
+ INFO registered notification handler method="textDocument/didChange"
+ INFO registered notification handler method="textDocument/didSave"
+ INFO registered notification handler method="textDocument/didClose"
+ INFO registered notification handler method="workspace/didChangeConfiguration"
+ INFO registered notification handler method="workspace/didChangeWorkspaceFolders"
+ INFO registered request handler method="taplo/convertToJson"
+ INFO registered request handler method="taplo/convertToToml"
+ INFO registered request handler method="taplo/listSchemas"
+ INFO registered request handler method="taplo/associatedSchema"
+ INFO registered notification handler method="taplo/associateSchema"
+ERROR hover: schema resolution failed error=could not determine schema URL
+ WARN no notification handler registered method=$/setTrace
+ERROR completion:possible_schemas_from: failed to resolve schema error=could not determine schema URL schema_url=https://yazi-rs.github.io/schemas/keymap.json path=mgr.prepend_keymap.0
+ERROR completion:possible_schemas_from: failed to resolve schema error=could not determine schema URL schema_url=https://yazi-rs.github.io/schemas/keymap.json path=mgr.prepend_keymap.1
+ERROR completion:possible_schemas_from: failed to resolve schema error=could not determine schema URL schema_url=https://yazi-rs.github.io/schemas/keymap.json path=mgr.prepend_keymap.2
+ERROR completion:possible_schemas_from: failed to resolve schema error=could not determine schema URL schema_url=https://yazi-rs.github.io/schemas/keymap.json path=mgr.prepend_keymap.34
+ERROR completion:possible_schemas_from: failed to resolve schema error=could not determine schema URL schema_url=https://yazi-rs.github.io/schemas/keymap.json path=mgr.prepend_keymap.35
+ WARN no notification handler registered method=$/setTrace

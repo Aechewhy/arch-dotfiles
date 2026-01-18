@@ -1,0 +1,16 @@
+2026-01-18 00:25:21.537 [warning] /home/aechewhy/.ssh/config: ENOENT: no such file or directory, open '/home/aechewhy/.ssh/config'
+2026-01-18 00:25:21.537 [info] [Activation] Extension version: 0.126.0
+2026-01-18 00:25:21.576 [info] [Activation] Registering built in git provider.
+2026-01-18 00:25:21.576 [info] [Activation] Looking for git repository
+2026-01-18 00:25:21.576 [info] [Activation] Found 0 repositories during activation
+2026-01-18 00:25:21.576 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-01-18 00:25:21.577 [info] [GitAPI] Registering git provider
+2026-01-18 00:25:21.618 [info] [GitPostCommitCommands] Trying to register post commit commands.
+2026-01-18 00:26:37.283 [warning] /home/aechewhy/.ssh/config: ENOENT: no such file or directory, open '/home/aechewhy/.ssh/config'
+2026-01-18 00:26:37.283 [info] [Activation] Extension version: 0.126.0
+2026-01-18 00:26:37.329 [info] [Activation] Registering built in git provider.
+2026-01-18 00:26:37.329 [info] [Activation] Looking for git repository
+2026-01-18 00:26:37.329 [info] [Activation] Found 0 repositories during activation
+2026-01-18 00:26:37.329 [info] [Activation] Git repository found, initializing review manager and pr tree view.
+2026-01-18 00:26:37.330 [info] [GitAPI] Registering git provider
+2026-01-18 00:26:37.346 [info] [GitPostCommitCommands] Trying to register post commit commands.

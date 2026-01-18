@@ -1,0 +1,8 @@
+[AC][SuspendAndShutdown]
+LidAction=8
+PowerButtonAction=8
+
+[Battery][SuspendAndShutdown]
+AutoSuspendIdleTimeoutSec=300
+LidAction=8
+PowerButtonAction=8

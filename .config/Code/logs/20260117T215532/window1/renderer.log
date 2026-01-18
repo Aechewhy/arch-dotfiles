@@ -1,0 +1,27 @@
+2026-01-17 21:55:33.778 [info] Started local extension host with pid 12978.
+2026-01-17 21:55:34.399 [info] MCP Registry configured: https://api.mcp.github.com
+2026-01-17 21:55:34.478 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2026-01-17 21:55:35.850 [error] chatParticipant must be declared in package.json: copilot-swe-agent
+2026-01-17 21:55:36.609 [info] [perf] Render performance baseline is 149ms
+2026-01-17 21:55:36.736 [error] An unknown error occurred. Please consult the log for more details.
+2026-01-17 23:46:29.824 [warning] SettingsEditor2: Settings not included in settingsLayout.ts: extensions.requestTimeout, github.copilot.chat.agent.terminal.allowList, github.copilot.chat.agent.terminal.denyList, terminal.integrated.developer.devMode, terminal.integrated.developer.ptyHost.latency, terminal.integrated.developer.ptyHost.startupDelay, chat.statusWidget.sku
+2026-01-17 23:46:30.208 [error] Method not found: toJSON: CodeExpectedError: Method not found: toJSON
+    at Object.call (file:///opt/visual-studio-code/resources/app/out/main.js:33:4650)
+    at Uf.s (file:///opt/visual-studio-code/resources/app/out/main.js:31:14882)
+    at Uf.q (file:///opt/visual-studio-code/resources/app/out/main.js:31:14405)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:31:13807)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.D (file:///opt/visual-studio-code/resources/app/out/main.js:30:2398)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2615)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5389)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at oa.value (file:///opt/visual-studio-code/resources/app/out/main.js:28:5573)
+    at P.C (file:///opt/visual-studio-code/resources/app/out/main.js:30:2328)
+    at P.fire (file:///opt/visual-studio-code/resources/app/out/main.js:30:2546)
+    at W (file:///opt/visual-studio-code/resources/app/out/main.js:28:7839)
+    at IpcMainImpl.i (file:///opt/visual-studio-code/resources/app/out/main.js:36:10842)
+    at IpcMainImpl.emit (node:events:519:28)
+    at Session.<anonymous> (node:electron/js2c/browser_init:2:106626)
+    at Session.emit (node:events:519:28)
+2026-01-18 00:07:22.876 [error] [text file model] handleSaveError(4) - exit - resulted in a save error: Error: Unable to write file '/home/aechewhy/.config/yazi/plugins/yatline.yazi/main.lua' (EntryWriteLocked (FileSystemError): Error: EACCES: permission denied, open '/home/aechewhy/.config/yazi/plugins/yatline.yazi/main.lua') file:///home/aechewhy/.config/yazi/plugins/yatline.yazi/main.lua
