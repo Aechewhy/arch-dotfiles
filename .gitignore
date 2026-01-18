@@ -1,8 +1,22 @@
 .config/BraveSoftware/
 .config/mozilla/
 .config/kdeconnect/
-.config/Code/
+
+.config/Code/Backups/
+.config/Code/Cache/
+.config/Code/CachedData/
+.config/Code/Cookies/
+.config/Code/Logs/
+.config/Code/Service Worker/
+.config/Code/User/History/
+.config/Code/User/workspaceStorage/
+.config/Code/User/globalStorage/
 !.config/Code/User/extensions.txt
 !.config/Code/User/keybindings.json
 !.config/Code/User/settings.json
 .config/pulse
+
+*.lock
+*.log
+*.bak
+*.swp
