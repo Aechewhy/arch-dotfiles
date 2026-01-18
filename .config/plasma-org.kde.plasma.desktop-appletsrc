@@ -104,7 +104,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][2][Applets][7][Applets][12][Configuration]
-PreloadWeight=65
+PreloadWeight=60
 
 [Containments][2][Applets][7][Applets][13]
 immutability=1
@@ -211,4 +211,4 @@ AppletOrder=3;4;52;6;7;21;22
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=
+screenMapping=desktop:/Notion.lnk,0,8701c2f2-a516-450f-a727-abdec5df0c7c,desktop:/Notion.desktop,0,8701c2f2-a516-450f-a727-abdec5df0c7c

@@ -1,6 +1,0 @@
-2026-01-18 00:47:23.180 [info] Started local extension host with pid 31307.
-2026-01-18 00:47:23.853 [info] MCP Registry configured: https://api.mcp.github.com
-2026-01-18 00:47:24.038 [info] Settings Sync: Account status changed from uninitialized to unavailable
-2026-01-18 00:47:25.408 [error] chatParticipant must be declared in package.json: copilot-swe-agent
-2026-01-18 00:47:25.945 [info] [perf] Render performance baseline is 145ms
-2026-01-18 00:47:26.294 [error] An unknown error occurred. Please consult the log for more details.

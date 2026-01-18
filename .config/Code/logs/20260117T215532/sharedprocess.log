@@ -1,6 +1,0 @@
-2026-01-17 21:57:39.270 [info] Getting Manifest... tamasfe.even-better-toml
-2026-01-17 21:57:39.566 [info] Installing extension: tamasfe.even-better-toml {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json","path":"/home/aechewhy/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"isApplicationScoped":false,"productVersion":{"version":"1.108.1","date":"2026-01-14T14:55:44.241Z"}}
-2026-01-17 21:57:42.162 [info] Extension signature verification result for tamasfe.even-better-toml: Success. Internal Code: 0. Executed: true. Duration: 451ms.
-2026-01-17 21:57:42.481 [info] Extracted extension to file:///home/aechewhy/.vscode/extensions/tamasfe.even-better-toml-0.21.2: tamasfe.even-better-toml
-2026-01-17 21:57:42.489 [info] Renamed to /home/aechewhy/.vscode/extensions/tamasfe.even-better-toml-0.21.2
-2026-01-17 21:57:42.511 [info] Extension installed successfully: tamasfe.even-better-toml vscode-userdata:/home/aechewhy/.vscode/extensions/extensions.json

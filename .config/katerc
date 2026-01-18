@@ -8,6 +8,23 @@ Show Status Bar=true
 Show Tab Bar=true
 Show Url Nav Bar=true
 
+[KTextEditor Renderer]
+Animate Bracket Matching=false
+Auto Color Theme Selection=true
+Color Theme=Tokyo Night
+Line Height Multiplier=1
+Show Indentation Lines=false
+Show Whole Bracket Expression=false
+Text Font=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Text Font Features=
+Word Wrap Marker=false
+
+[MainWindow]
+1670x939 screen: Window-Maximized=true
+
+[UiSettings]
+ColorScheme=TokyoNight
+
 [filetree]
 editShade=30,78,103
 listMode=false
