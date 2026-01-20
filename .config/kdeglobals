@@ -150,6 +150,7 @@ toolBarFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 Theme=Papirus-Dark
 
 [KDE]
+AnimationDurationFactor=0.5
 LookAndFeelPackage=org.kde.breezedark.desktop
 widgetStyle=Breeze
 
@@ -169,6 +170,13 @@ Sort hidden files last=false
 Sort reversed=false
 Speedbar Width=154
 View Style=DetailTree
+
+[Shortcuts]
+Activate Next Tab=Alt+.; Ctrl+PgDown; Ctrl+]
+Activate Previous Tab=Alt+,; Ctrl+[; Ctrl+PgUp
+Help=
+ShowHideHiddenFiles=Ctrl+.
+WhatsThis=
 
 [WM]
 activeBackground=26,27,38

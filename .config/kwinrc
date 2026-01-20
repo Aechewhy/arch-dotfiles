@@ -3,15 +3,20 @@ Id_1=3958e18d-d22f-4370-9684-8ca9254a5662
 Number=1
 Rows=1
 
+[Effect-overview]
+BorderActivate=9
+
+[Effect-translucency]
+Inactive=80
+
 [NightColor]
 Active=true
 NightTemperature=3800
 
 [Plugins]
 blurEnabled=true
-magiclampEnabled=true
+screenedgeEnabled=false
 shakecursorEnabled=false
-squashEnabled=false
 
 [Tiling]
 padding=4
@@ -19,8 +24,14 @@ padding=4
 [Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][47f73707-bcf0-494f-bb00-533354c0e7cc]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Wayland]
 InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+
+[Windows]
+ElectricBorderDelay=0
 
 [Xwayland]
 Scale=1.15

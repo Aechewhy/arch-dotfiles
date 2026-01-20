@@ -1,9 +1,8 @@
-
 return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "gruvbox",
+      colorscheme = "tokyonight",
     },
   },
   {
@@ -38,14 +37,14 @@ return {
     end,
   },
   {
-    'maxmx03/fluoromachine.nvim',
+    "maxmx03/fluoromachine.nvim",
     name = "fluoromachine",
     lazy = false,
     priority = 1000,
-    config = function ()
-      local fm = require 'fluoromachine'
-      fm.setup {
-        theme = 'retrowave',
+    config = function()
+      local fm = require("fluoromachine")
+      fm.setup({
+        theme = "retrowave",
         brightness = 0.05,
         glow = false,
         transparent = true,
@@ -89,26 +88,34 @@ return {
           tree = true,
           wk = true,
         },
-      }
-    end
+      })
+    end,
   },
   {
     "folke/tokyonight.nvim",
     name = "tokyonight",
-    -- ← here’s your opts for tokyonight
     opts = {
-      style           = "moon",
-      transparent     = true,
+      style = "moon",
+      transparent = true,
       terminal_colors = true,
+
+      bold = true,
+      italic = {
+        strings = true,
+        emphasis = true,
+        comments = true,
+        operators = false,
+        folds = true,
+      },
       styles = {
-        comments  = { italic = true },
-        keywords  = { italic = true },
-        sidebars  = "dark",
-        floats    = "dark",
+        comments = { italic = true },
+        keywords = { italic = true },
+        sidebars = "transparent",
+        floats = "transparent",
       },
       day_brightness = 0.3, -- Adjusts the brightness of the colors of the **Day** style. Number between 0 and 1, from dull to vibrant colors
       dim_inactive = false, -- dims inactive windows
       lualine_bold = false, -- When `true`, section headers in the lualine theme will be bold }
     },
-  }
+  },
 }

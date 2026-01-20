@@ -1,5 +1,14 @@
 [Applications][firefox]
 Seen=true
 
+[Applications][net.lutris.Lutris]
+Seen=true
+
+[Applications][timeshift-gtk]
+Seen=true
+
+[Applications][zalo]
+Seen=true
+
 [Notifications]
 PopupPosition=BottomRight
