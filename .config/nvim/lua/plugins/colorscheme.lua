@@ -46,7 +46,7 @@ return {
       fm.setup({
         theme = "retrowave",
         brightness = 0.05,
-        glow = false,
+        glow = true,
         transparent = true,
         styles = {
           comments = {},

@@ -1,5 +1,8 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+setopt PROMPT_SUBST
+source ~/.config/zsh/prompt.zsh
+source ~/.config/zsh/aliases.zsh
 ################################################################################
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -42,9 +45,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # load a random theme each time Oh My Zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-#ZSH_THEME="strug"
-#ZSH_THEME="mikeh"
-ZSH_THEME="xiong-chiamiov"
+#ZSH_THEME="xiong-chiamiov"
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -142,14 +143,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-alias g="git"
-alias ..="cd .."
-alias ...="cd ..."
-alias n="nvim"
-alias q="exit"
-alias install="sudo pacman -S"
-alias lgit="lazygit"
-alias editz="nvim ~/.zshrc"
 eval "$(zoxide init zsh)"
 
 # history setup

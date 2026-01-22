@@ -174,8 +174,10 @@ keymap = [
 	{ on = "<Tab>", run = "spot", desc = "Spot hovered file" },
 
 	# Operation
-	{ on = "o",         run = "open",                        desc = "Open selected files" },
-	{ on = "O",         run = "open --interactive",          desc = "Open selected files interactively" },
+	{ on = "o",         run = "open --interactive",                        desc = "Open selected files" },
+  { on = ["R"],   run = "shell --orphan -- dolphin --select \"%0\"",                desc = "Reveal selected files" },
+
+  # { on = ["R"],     run  = "shell --orphan -- xdg-open \"$(dirname \"%0\")\"",   desc = "Reveal selected files" },
 	{ on = "<Enter>",   run = "open",                        desc = "Open selected files" },
 	{ on = "<S-Enter>", run = "open --interactive",          desc = "Open selected files interactively" },
 	{ on = "y",         run = "yank",                        desc = "Yank selected files (copy)" },

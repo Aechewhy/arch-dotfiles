@@ -1,10 +1,10 @@
-return{
+return {
   "mikavilpas/yazi.nvim",
   event = "VeryLazy",
   dependencies = {
     -- check the installation instructions at
     -- https://github.com/folke/snacks.nvim
-    "folke/snacks.nvim"
+    "folke/snacks.nvim",
   },
   keys = {
     -- 👇 in this section, choose your own keymappings!
@@ -42,10 +42,10 @@ return{
       change_working_directory = "<a-O>",
       open_and_pick_window = "<c-p>",
     },
-  open_file_function = function(chosen_file, _config, _state)
-        -- Use the host Neovim to open the file
-        vim.cmd("edit " .. vim.fn.fnameescape(chosen_file))
-      end,
+    open_file_function = function(chosen_file, _config, _state)
+      -- -- Use the host Neovim to open the file
+      -- vim.cmd("edit " .. vim.fn.fnameescape(chosen_file))
+    end,
   },
   -- 👇 if you use `open_for_directories=true`, this is recommended
   init = function()
@@ -53,4 +53,8 @@ return{
     -- vim.g.loaded_netrw = 1
     vim.g.loaded_netrwPlugin = 1
   end,
+  -- when yazi is closed with no file chosen, change the Neovim working
+  -- directory to the directory that yazi was in before it was closed. Defaults
+  -- to being off (`false`)
+  change_neovim_cwd_on_close = true,
 }
