@@ -1,0 +1,156 @@
+# ==============================================================================
+#  i3-wm Config - Starter Template
+# ==============================================================================
+
+# --- Variables ---
+set $mod Mod4                  
+set $term kitty # Default terminal
+set $browser brave          
+
+# --- Visuals & Fonts ---
+# Use a nerd font if you have one installed, e.g.:
+font pango:JetBrainsMono Nerd Font 14
+
+# Window borders (none, 1pixel, normal)
+default_border pixel 2
+default_floating_border normal
+
+# Gaps (Spaces between windows) - Requires i3-gaps (standard on most distros now)
+gaps inner 10
+gaps outer 0
+
+# --- Autostart ---
+# Start XDG autostart .desktop files using dex. See also
+# https://wiki.archlinux.org/index.php/XDG_Autostart
+exec --no-startup-id dex --autostart --environment i3
+
+# Network Manager Applet
+exec --no-startup-id nm-applet
+
+# Wallpaper (Requires 'feh')
+# exec --no-startup-id feh --bg-scale /path/to/wallpaper.jpg
+
+# Compositor (For transparency and shadows - Requires 'picom')
+# exec --no-startup-id picom -b
+
+# --- Keybindings: Basics ---
+
+# Start a terminal
+bindsym $mod+Return exec $term
+# Open Browser
+bindsym $mod+Shift+Return exec $browser
+# Kill focused window
+bindsym $mod+Shift+q kill
+
+# Start Application Launcher (Rofi is recommended over dmenu)
+bindsym $mod+space exec --no-startup-id rofi -show drun
+# If you don't have rofi, uncomment the line below:
+# bindsym $mod+d exec dmenu_run
+
+# Reload the configuration file
+bindsym $mod+Shift+c reload
+# Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $mod+Shift+r restart
+# Exit i3 (logs you out of your X session)
+bindsym $mod+Shift+Delete exec "i3-msg exit"
+
+# --- Keybindings: Windows ---
+
+# Change focus (Vim style)
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+# Move focused window (Vim style)
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+# Split in horizontal orientation
+bindsym $mod+b split h
+# Split in vertical orientation
+bindsym $mod+v split v
+
+# Enter fullscreen mode for the focused container
+bindsym $mod+f fullscreen toggle
+
+# Change container layout (stacked, tabbed, toggle split)
+bindsym $mod+s layout stacking
+bindsym $mod+w layout tabbed
+bindsym $mod+e layout toggle split
+
+# Toggle tiling / floating
+
+# Change focus between tiling / floating windows
+bindsym $mod+Shift+t focus mode_toggle
+
+# --- Keybindings: Hardware (Volume & Brightness) ---
+# Requires 'pamixer' (for volume) and 'brightnessctl' (for screen)
+# You can replace these with 'amixer' or 'xbacklight' if preferred.
+
+bindsym XF86AudioRaiseVolume exec --no-startup-id pamixer -i 5
+bindsym XF86AudioLowerVolume exec --no-startup-id pamixer -d 5
+bindsym XF86AudioMute exec --no-startup-id pamixer -t
+bindsym XF86AudioMicMute exec --no-startup-id pamixer --default-source -t
+
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+
+# --- Workspaces ---
+
+# Define names for default workspaces for which we configure key bindings
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# Switch to workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+
+# Move focused container to workspace
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# --- Bar Configuration ---
+bar {
+        status_command i3status
+        position top
+
+        # Custom Colors
+        colors {
+            background #282A36
+            statusline #F8F8F2
+            separator  #44475A
+
+            # Class             Border  Backgr. Text
+            focused_workspace   #6272A4 #6272A4 #F8F8F2
+            active_workspace    #282A36 #44475A #F8F8F2
+            inactive_workspace  #282A36 #282A36 #BFBFBF
+            urgent_workspace    #FF5555 #FF5555 #F8F8F2
+        }
+}

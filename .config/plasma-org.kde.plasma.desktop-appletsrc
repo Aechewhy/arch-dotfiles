@@ -40,7 +40,7 @@ immutability=1
 plugin=org.kde.plasma.icontasks
 
 [Containments][128][Applets][129][Configuration][General]
-launchers=
+launchers=applications:kitty.desktop,applications:brave-browser.desktop,applications:firefox.desktop
 
 [Containments][128][Applets][130]
 immutability=1
@@ -65,7 +65,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][128][Applets][132][Configuration]
 PreloadWeight=100
-popupHeight=440
+popupHeight=468
 popupWidth=300
 
 [Containments][128][Applets][132][Configuration][General]
@@ -171,6 +171,9 @@ plugin=org.kde.kscreen
 immutability=1
 plugin=org.kde.plasma.devicenotifier
 
+[Containments][56][Applets][110][Applets][122][Configuration]
+PreloadWeight=90
+
 [Containments][56][Applets][110][Applets][123]
 immutability=1
 plugin=org.kde.plasma.notifications
@@ -193,7 +196,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][56][Applets][110][Applets][125][Configuration]
-PreloadWeight=100
+PreloadWeight=84
 
 [Containments][56][Applets][110][Applets][125][Configuration][General]
 showPercentage=true
@@ -203,14 +206,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][56][Applets][110][Applets][126][Configuration]
-PreloadWeight=39
+PreloadWeight=23
 
 [Containments][56][Applets][110][Applets][127]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][56][Applets][110][Applets][127][Configuration]
-PreloadWeight=44
+PreloadWeight=41
 
 [Containments][56][Applets][110][Applets][127][Shortcuts]
 global=Meta+Alt+B
@@ -265,4 +268,4 @@ showSeconds=Always
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/brave-khmlcabibblfpfhmkfpaiblbijoggmaa-Default.desktop,0,8701c2f2-a516-450f-a727-abdec5df0c7c
+screenMapping=

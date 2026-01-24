@@ -5,5 +5,6 @@ NumLock=0
 PointerAcceleration=1.000
 
 [Libinput][1267][12717][ELAN06FA:00 04F3:31AD Touchpad]
+NaturalScroll=true
 PointerAcceleration=0.600
 TapAndDrag=false

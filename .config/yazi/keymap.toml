@@ -242,10 +242,15 @@ keymap = [
 
 	# Goto
 	{ on = [ "g", "h" ],       run = "cd ~",             desc = "Go home" },
-	{ on = [ "g", "c" ],       run = "cd ~/.config",     desc = "Go ~/.config" },
-	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go ~/Downloads" },
+	{ on = [ "g", "c" ],       run = "cd ~/.config",     desc = "Go to .config" },
+	{ on = [ "g", "d" ],       run = "cd ~/Downloads",   desc = "Go to Downloads" },
 	{ on = [ "g", "<Space>" ], run = "cd --interactive", desc = "Jump interactively" },
 	{ on = [ "g", "f" ],       run = "follow",           desc = "Follow hovered symlink" },
+	{ on = [ "g", "p" ],       run = "cd /home/aechewhy/Pictures/",   desc = "Go to pictures" },
+	{ on = [ "g", "s" ],       run = "cd '/home/aechewhy/Documents/Study Materials/'",   desc = "Go to study materials" },
+	{ on = [ "g", "S" ],       run = "cd /home/aechewhy/Pictures/Screenshots",   desc = "Go to screenshots" },
+	{ on = [ "g", "/" ],       run = "cd /",   desc = "Go to /" },
+	{ on = [ "g", "." ],       run = "cd ~/.dotfiles",   desc = "Go to .dotfiles" },
 
 	# Tabs
 	{ on = ["t","t"], run = "tab_create --current", desc = "Create a new tab with CWD" },
@@ -270,8 +275,10 @@ keymap = [
 	{ on = "w", run = "tasks:show", desc = "Show task manager" },
 
 	# Help
-	{ on = "~",    run = "help", desc = "Open help" },
 	{ on = "<F1>", run = "help", desc = "Open help" },
+  # Miscellaneous
+  
+  { on = [".", "y"], run = "nvim /home/aechewhy/.config/yazi", desc = "Config yazi"},
 ]
 
 [tasks]

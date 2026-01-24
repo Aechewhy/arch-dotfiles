@@ -150,7 +150,7 @@ toolBarFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 Theme=Papirus-Dark
 
 [KDE]
-AnimationDurationFactor=0.5
+AnimationDurationFactor=0.35355339059327373
 LookAndFeelPackage=org.kde.breezedark.desktop
 widgetStyle=Breeze
 
