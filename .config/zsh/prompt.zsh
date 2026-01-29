@@ -52,7 +52,7 @@ function prompt_precmd() {
   # show only if >= 1 second
   (( elapsed < 1 )) && return
 
-  CMD_DURATION=$(printf "⏱ %.2fs" "$elapsed")
+  CMD_DURATION=$(printf "󱦟 %.2fs" "$elapsed")
   CMD_START_TIME=0
 }
 autoload -Uz add-zsh-hook
@@ -122,5 +122,5 @@ PROMPT='
 %F{yellow}${DIRECTORY_ICON}%f %F{yellow}%~%f
 ${STATUS_SYMBOL} %F{red}󰅂%f '
 
-RPROMPT='%F{blue}%D{%a|%d/%m/%y|%H:%M:%S}%f'
+RPROMPT='%F{blue} %D{%a|%d/%m/%y|%H:%M:%S}%f'
 

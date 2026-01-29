@@ -39,15 +39,22 @@ wallpaperplugin=org.kde.image
 immutability=1
 plugin=org.kde.plasma.icontasks
 
+[Containments][128][Applets][129][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
 [Containments][128][Applets][129][Configuration][General]
-launchers=applications:kitty.desktop,applications:brave-browser.desktop,applications:firefox.desktop
+launchers=applications:kitty.desktop,applications:brave-browser.desktop,applications:firefox.desktop,applications:org.kde.okular.desktop
+showOnlyCurrentActivity=false
+showOnlyCurrentDesktop=false
+wheelEnabled=AllTask
 
 [Containments][128][Applets][130]
 immutability=1
 plugin=org.kde.plasma.userswitcher
 
 [Containments][128][Applets][130][Configuration]
-PreloadWeight=75
+PreloadWeight=80
 popupHeight=177
 popupWidth=216
 
@@ -155,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][56][Applets][110][Applets][120][Configuration]
-PreloadWeight=75
+PreloadWeight=95
 
 [Containments][56][Applets][110][Applets][120][Configuration][General]
 migrated=true
@@ -196,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][56][Applets][110][Applets][125][Configuration]
-PreloadWeight=84
+PreloadWeight=100
 
 [Containments][56][Applets][110][Applets][125][Configuration][General]
 showPercentage=true
@@ -206,14 +213,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][56][Applets][110][Applets][126][Configuration]
-PreloadWeight=23
+PreloadWeight=38
 
 [Containments][56][Applets][110][Applets][127]
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][56][Applets][110][Applets][127][Configuration]
-PreloadWeight=41
+PreloadWeight=66
 
 [Containments][56][Applets][110][Applets][127][Shortcuts]
 global=Meta+Alt+B
@@ -245,7 +252,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][56][Applets][98][Configuration]
-PreloadWeight=60
+PreloadWeight=70
 popupHeight=451
 popupWidth=525
 

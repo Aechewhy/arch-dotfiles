@@ -170,7 +170,7 @@
     "window.density.editorTabHeight": "compact",
     "window.enableMenuBarMnemonics": false,
     "workbench.activityBar.location": "top",
-    "workbench.colorTheme": "GitHub Dark Default",
+    "workbench.colorTheme": "Tokyo Night",
     "workbench.editor.editorActionsLocation": "titleBar",
     "workbench.editorAssociations": {
         "*.dat": "default",

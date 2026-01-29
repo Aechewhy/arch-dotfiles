@@ -1,6 +1,16 @@
+[Annotations]
+annotationToolType=9
+
+[General]
+autoSaveImage=true
+clipboardGroup=PostScreenshotCopyImage
+
 [ImageSave]
-lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/Screenshot_20260123_210830.png
+imageFilenameTemplate=/<yyyy>-<MM>/<title>_<yyyy><MM><dd>_<HH><mm><ss>
+lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/2026-01/20260129_163933.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
+preferredVideoFormat=2
 translatedScreencastsFolder=Screencasts
+videoFilenameTemplate=/<yyyy>-<MM>/<title>_<yyyy><MM><dd>_<HH><mm><ss>

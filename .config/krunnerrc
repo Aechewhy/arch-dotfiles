@@ -3,6 +3,7 @@ FreeFloating=true
 
 [Plugins]
 krunner_keysEnabled=true
+krunner_konsoleprofilesEnabled=false
 
 [Plugins][Favorites]
-plugins=krunner_sessions,krunner_powerdevil,krunner_services,krunner_systemsettings
+plugins=windows,krunner_sessions,krunner_services,krunner_powerdevil,krunner_systemsettings,krunner_shell
