@@ -3,8 +3,6 @@
 export EDITOR='nvim'
 export VISUAL='nvim'
 setopt PROMPT_SUBST
-source ~/.config/zsh/prompt.zsh
-source ~/.config/zsh/aliases.zsh
 ################################################################################
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
@@ -112,7 +110,6 @@ plugins=(
    git
    zsh-autosuggestions
    zsh-syntax-highlighting
-
  )
 
 source $ZSH/oh-my-zsh.sh
@@ -157,3 +154,6 @@ setopt hist_ignore_dups
 setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
+
+source ~/.config/zsh/prompt.zsh
+source ~/.config/zsh/aliases.zsh
