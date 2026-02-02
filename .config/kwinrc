@@ -19,6 +19,7 @@ NightTemperature=3800
 
 [Plugins]
 blurEnabled=true
+minimizeallEnabled=true
 screenedgeEnabled=false
 shakecursorEnabled=false
 
