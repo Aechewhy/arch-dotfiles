@@ -33,14 +33,14 @@ return {
       show_help = "<f1>",
       open_file_in_vertical_split = "<c-v>",
       open_file_in_horizontal_split = "<c-x>",
-      open_file_in_tab = "<a-o>",
-      grep_in_directory = "<a-g>",
+      open_file_in_tab = "<a-t>",
+      grep_in_directory = "<c-s>",
       replace_in_directory = "<c-g>",
       cycle_open_buffers = "<tab>",
       copy_relative_path_to_selected_files = "<c-y>",
       send_to_quickfix_list = "<c-q>",
-      change_working_directory = "<a-O>",
-      open_and_pick_window = "<c-p>",
+      change_working_directory = "<c-/>",
+      open_and_pick_window = "<c-o>",
     },
     open_file_function = function(chosen_file, _config, _state)
       -- -- Use the host Neovim to open the file

@@ -23,7 +23,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][1][Wallpaper][org.kde.image][General]
-Image=/home/aechewhy/Pictures/Wallpapers/Album covers/The Darch Side of the Moon.png
+Image=file:///home/aechewhy/Pictures/Wallpapers/Album covers/The Dark side of the moon/The Darch Side of the Moon.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][128]
@@ -203,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][56][Applets][110][Applets][125][Configuration]
-PreloadWeight=49
+PreloadWeight=41
 
 [Containments][56][Applets][110][Applets][125][Configuration][General]
 showPercentage=true
@@ -220,7 +220,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][56][Applets][110][Applets][127][Configuration]
-PreloadWeight=25
+PreloadWeight=27
 
 [Containments][56][Applets][110][Applets][127][Shortcuts]
 global=Meta+Alt+B

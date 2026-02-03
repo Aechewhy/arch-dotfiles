@@ -14,11 +14,3 @@ keymap.set("n", "<leader><leader>Q", ":q!<Return>", { desc = "Force Quit" })
 keymap.set("n", "<leader><leader>w", ":w<Return>", { desc = "Save file" })
 keymap.set("n", "<leader><leader>x", ":x<Return>", { desc = "Save and quit" })
 keymap.set("n", "<leader><leader>X", ":wqa<Return>", { desc = "Save and quit all files" })
-
---------------------------------------------------------------------------------------------------------------
------Hop.nvim
---------------------------------------------------------------------------------------------------------------
-keymap.set({ "n", "v" }, "<leader>w", "<Cmd>HopWord<CR>", { desc = "Hop to word" })
-keymap.set({ "n", "v" }, "<leader>l", "<Cmd>HopLine<CR>", { desc = "Hop to line" })
-keymap.set({ "n", "v" }, "f", "<Cmd>HopAnywhere<CR>", { desc = "Hop to anywhere" })
-keymap.set({ "n", "v" }, "F", "<Cmd>HopChar1<CR>", { desc = "Hop to one character" })

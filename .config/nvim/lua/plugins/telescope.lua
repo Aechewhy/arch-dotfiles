@@ -9,6 +9,13 @@ return {
     config = function()
       -- 1. Load the plugin ONLY after it's installed
       local builtin = require("telescope.builtin")
+      require("telescope").setup({
+        defaults = {
+          preview = {
+            treesitter = false, -- <--- THIS FIXES THE CRASH
+          },
+        },
+      })
 
       -- 2. Set up your keymaps inside the config function
       vim.keymap.set("n", "<leader>ff", builtin.find_files, { desc = "Telescope find files" })
