@@ -16,6 +16,8 @@
 !.config/Code/User/settings.json
 .config/pulse
 
+.config/obs-studio/.sentinel
+
 *.log
 *.bak
 *.swp
