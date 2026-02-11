@@ -44,27 +44,10 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][128][Applets][129][Configuration][General]
-launchers=applications:kitty.desktop,applications:brave-browser.desktop,applications:firefox.desktop,applications:org.kde.okular.desktop
+launchers=applications:kitty.desktop,applications:brave-browser.desktop,applications:zen.desktop,applications:firefox.desktop,applications:org.kde.okular.desktop
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
 wheelEnabled=AllTask
-
-[Containments][128][Applets][130]
-immutability=1
-plugin=org.kde.plasma.userswitcher
-
-[Containments][128][Applets][130][Configuration]
-PreloadWeight=80
-popupHeight=177
-popupWidth=216
-
-[Containments][128][Applets][130][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][128][Applets][130][Configuration][General]
-showFace=true
-showFullName=false
 
 [Containments][128][Applets][132]
 immutability=1
@@ -79,7 +62,7 @@ popupWidth=300
 favoritesPortedToKAstats=true
 
 [Containments][128][General]
-AppletOrder=132;130;129
+AppletOrder=132;129
 
 [Containments][133]
 activityId=8701c2f2-a516-450f-a727-abdec5df0c7c
@@ -91,7 +74,7 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][133][Wallpaper][org.kde.image][General]
-Image=file:///usr/share/wallpapers/ScarletTree/
+Image=file:///home/aechewhy/Pictures/Wallpapers/Album covers/The Dark side of the moon/The Darch Side of the Moon.png
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][56]
@@ -143,7 +126,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][56][Applets][110][Applets][116][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][56][Applets][110][Applets][117]
 immutability=1
@@ -162,7 +145,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][56][Applets][110][Applets][120][Configuration]
-PreloadWeight=95
+PreloadWeight=100
 
 [Containments][56][Applets][110][Applets][120][Configuration][General]
 migrated=true
@@ -179,7 +162,7 @@ immutability=1
 plugin=org.kde.plasma.devicenotifier
 
 [Containments][56][Applets][110][Applets][122][Configuration]
-PreloadWeight=90
+PreloadWeight=100
 
 [Containments][56][Applets][110][Applets][123]
 immutability=1
@@ -203,7 +186,7 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][56][Applets][110][Applets][125][Configuration]
-PreloadWeight=41
+PreloadWeight=28
 
 [Containments][56][Applets][110][Applets][125][Configuration][General]
 showPercentage=true
@@ -220,7 +203,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][56][Applets][110][Applets][127][Configuration]
-PreloadWeight=27
+PreloadWeight=0
 
 [Containments][56][Applets][110][Applets][127][Shortcuts]
 global=Meta+Alt+B
@@ -234,12 +217,12 @@ PreloadWeight=0
 
 [Containments][56][Applets][110][ConfigDialog]
 DialogHeight=630
-DialogWidth=810
+DialogWidth=809
 
 [Containments][56][Applets][110][General]
 extraItems=org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement,org.kde.plasma.battery,org.kde.plasma.brightness
 hiddenItems=org.kde.plasma.brightness
-iconSpacing=6
+iconSpacing=1
 knownItems=org.kde.plasma.keyboardlayout,org.kde.plasma.vault,org.kde.kdeconnect,org.kde.plasma.manage-inputmethod,org.kde.plasma.bluetooth,org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.weather,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.brightness,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.notifications,org.kde.plasma.networkmanagement
 scaleIconsToFit=true
 shownItems=org.kde.plasma.battery
@@ -252,7 +235,7 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][56][Applets][98][Configuration]
-PreloadWeight=80
+PreloadWeight=85
 popupHeight=451
 popupWidth=525
 

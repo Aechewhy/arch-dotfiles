@@ -7,6 +7,11 @@ Rows=1
 BlurStrength=6
 NoiseStrength=2
 
+[Effect-blurplus]
+BlurStrength=6
+NoiseStrength=0
+WindowClasses=zen\norg.wezfurlong.wezterm
+
 [Effect-overview]
 BorderActivate=9
 
@@ -18,7 +23,8 @@ Active=true
 NightTemperature=3800
 
 [Plugins]
-blurEnabled=true
+blurEnabled=false
+forceblurEnabled=true
 minimizeallEnabled=true
 screenedgeEnabled=false
 shakecursorEnabled=false
@@ -43,3 +49,6 @@ ElectricBorderDelay=0
 
 [Xwayland]
 Scale=1.15
+
+[org.kde.kdecoration2]
+theme=__aurorae__svg__TokyoNight

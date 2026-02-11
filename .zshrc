@@ -2,7 +2,10 @@
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 export EDITOR='nvim'
 export VISUAL='nvim'
+# Allow command and variable expansion in the shell prompt
 setopt PROMPT_SUBST
+export MANPAGER='nvim +Man!'
+export PAGER="nvim -u NONE -R"
 ################################################################################
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx

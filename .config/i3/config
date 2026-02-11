@@ -15,10 +15,6 @@ font pango:JetBrainsMono Nerd Font 14
 default_border pixel 2
 default_floating_border normal
 
-# Gaps (Spaces between windows) - Requires i3-gaps (standard on most distros now)
-gaps inner 10
-gaps outer 0
-
 # --- Autostart ---
 # Start XDG autostart .desktop files using dex. See also
 # https://wiki.archlinux.org/index.php/XDG_Autostart
@@ -32,9 +28,10 @@ exec --no-startup-id nm-applet
 
 # Compositor (For transparency and shadows - Requires 'picom')
 # exec --no-startup-id picom -b
-
-# --- Keybindings: Basics ---
-
+##################################################################################
+#KEYMAPS
+##################################################################################
+#BASICS
 # Start a terminal
 bindsym $mod+Return exec $term
 # Open Browser
@@ -46,15 +43,14 @@ bindsym $mod+Shift+q kill
 bindsym $mod+space exec --no-startup-id rofi -show drun
 # If you don't have rofi, uncomment the line below:
 # bindsym $mod+d exec dmenu_run
-
 # Reload the configuration file
-bindsym $mod+Shift+c reload
+bindsym $mod+Shift+f5 reload
 # Restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # Exit i3 (logs you out of your X session)
 bindsym $mod+Shift+Delete exec "i3-msg exit"
 
-# --- Keybindings: Windows ---
+#WINDOW MANAGEMENT
 
 # Change focus (Vim style)
 bindsym $mod+h focus left
@@ -72,10 +68,8 @@ bindsym $mod+Shift+l move right
 bindsym $mod+b split h
 # Split in vertical orientation
 bindsym $mod+v split v
-
 # Enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
-
 # Change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
 bindsym $mod+w layout tabbed

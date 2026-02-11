@@ -1,0 +1,7 @@
+[user]
+	name = Aechewhy
+	email = harryhuy2472004@gmail.com
+[credential]
+	helper = store
+[core]
+	pager = nvim -R

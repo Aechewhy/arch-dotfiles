@@ -71,7 +71,7 @@ return {
 	-- Fonts Configurations:
 	-----------------------------------------------------------
 	font = wezterm.font("JetBrainsMono NF", { weight = "Medium", stretch = "Normal", style = "Normal" }),
-	font_size = 14,
+	font_size = 13,
 	font_rules = {
 		{
 			italic = true,
@@ -90,7 +90,7 @@ return {
 	-----------------------------------------------------------
 	-- Colorscheme Configurations:
 	-----------------------------------------------------------
-	color_scheme = "Dracula",
+	color_scheme = "Tokyo Night",
 	color_schemes = {
 		["gruvbox_material_dark_medium"] = {
 			foreground = "#D4BE98",
@@ -323,4 +323,3 @@ return {
 	cursor_blink_rate = 500,
 	set_environment_variables = {},
 }
-

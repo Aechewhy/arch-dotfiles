@@ -1,0 +1,27 @@
+# Tokyo Night Color Scheme for Zathura
+set default-bg                  "#16161e"
+set default-fg                  "#c0caf5"
+
+set statusbar-bg                "#1a1b26"
+set statusbar-fg                "#c0caf5"
+
+set inputbar-bg                 "#16161e"
+set inputbar-fg                 "#7aa2f7"
+
+set notification-error-bg       "#f7768e"
+set notification-error-fg       "#c0caf5"
+
+set notification-warning-bg     "#e0af68"
+set notification-warning-fg     "#c0caf5"
+
+set highlight-color             "#e0af68"
+set highlight-active-color      "#7aa2f7"
+
+set completion-bg               "#1a1b26"
+set completion-fg               "#7aa2f7"
+set completion-highlight-bg     "#7aa2f7"
+set completion-highlight-fg     "#1a1b26"
+
+set recolor                     "true"
+set recolor-lightcolor          "#16161e"
+set recolor-darkcolor           "#c0caf5"

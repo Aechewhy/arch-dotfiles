@@ -146,12 +146,9 @@ menuFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 smallestReadableFont=Roboto Medium,8,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 toolBarFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 
-[Icons]
-Theme=Papirus-Dark
-
 [KDE]
 AnimationDurationFactor=0.35355339059327373
-LookAndFeelPackage=org.kde.breezedark.desktop
+LookAndFeelPackage=com.github.Jayy-Dev.Plasma.Tokyo.Night
 widgetStyle=Breeze
 
 [KFileDialog Settings]

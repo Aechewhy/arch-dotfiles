@@ -4,8 +4,6 @@
 local keymap = vim.keymap
 local opts = { noremap = true, silent = true }
 keymap.set("n", "<C-a>", "gg<S-v>G")
--- keymap.set("n", "<C-f>", "<C-f>zz")
--- keymap.set("n", "<C-b>", "<C-b>zz")
 keymap.set("n", "<C-d>", "<C-d>zz")
 keymap.set("n", "<C-u>", "<C-u>zz")
 
