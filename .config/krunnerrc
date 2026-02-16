@@ -6,4 +6,4 @@ krunner_keysEnabled=true
 krunner_konsoleprofilesEnabled=false
 
 [Plugins][Favorites]
-plugins=windows,krunner_sessions,krunner_services,krunner_powerdevil,krunner_systemsettings,krunner_shell
+plugins=windows,krunner_services,krunner_sessions,krunner_systemsettings,krunner_shell,krunner_powerdevil

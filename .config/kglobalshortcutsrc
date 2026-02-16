@@ -24,12 +24,12 @@ mic_mute=Microphone Mute\tMeta+Volume Mute,Microphone Mute\tMeta+Volume Mute,Mut
 mute=Volume Mute,Volume Mute,Mute
 
 [ksmserver]
-Halt Without Confirmation=none,,Shut Down Without Confirmation
+Halt Without Confirmation=Meta+Shift+Esc,,Shut Down Without Confirmation
 Lock Session=Meta+L\tScreensaver,Meta+L\tScreensaver,Lock Session
 Log Out=Meta+Esc,Ctrl+Alt+Del,Show Logout Screen
 Log Out Without Confirmation=none,,Log Out Without Confirmation
 LogOut=none,,Log Out
-Reboot=Meta+Alt+Del,,Reboot
+Reboot=none,,Reboot
 Reboot Without Confirmation=none,,Reboot Without Confirmation
 Shut Down=none,,Shut Down
 _k_friendly_name=Session Management
@@ -105,7 +105,7 @@ Switch to Screen to the Right=none,,Switch to Screen to the Right
 Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Window Raise/Lower=none,,Toggle Window Raise/Lower
 TrackMouse=none,none,Track mouse
-Walk Through Windows=Alt+Tab,Meta+Tab\tAlt+Tab,Walk Through Windows
+Walk Through Windows=none,Meta+Tab\tAlt+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Tab,Meta+Shift+Tab\tAlt+Shift+Tab,Walk Through Windows (Reverse)
 Walk Through Windows Alternative=none,none,Walk Through Windows Alternative
 Walk Through Windows Alternative (Reverse)=none,none,Walk Through Windows Alternative (Reverse)
@@ -240,6 +240,7 @@ activate widget 110=Meta+A,none,Activate System Tray Widget
 activate widget 120=Meta+Alt+V,none,Activate Audio Volume Widget
 activate widget 124=Meta+Alt+W,none,Activate Networks Widget
 activate widget 127=Meta+Alt+B,none,Activate Bluetooth Widget
+activate widget 129=Meta+Z,none,Activate Icons-Only Task Manager Widget
 activate widget 52=none,none,Activate Icons-Only Task Manager Widget
 clear-history=none,,Clear Clipboard History
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Automatic Action Popup Menu
@@ -260,6 +261,9 @@ toggle do not disturb=none,,Toggle do not disturb
 
 [services][kitty.desktop]
 _launch=Meta+Return
+
+[services][net.local.rofi.desktop]
+_launch=Alt+Space
 
 [services][org.kde.konsole.desktop]
 _launch=none
