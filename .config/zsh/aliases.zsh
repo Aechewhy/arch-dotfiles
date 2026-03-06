@@ -1,3 +1,4 @@
+alias bye="sync && poweroff"
 alias g="git"
 alias ..="cd .."
 alias n="nvim"

@@ -1,0 +1,8 @@
+{
+  "cssTheme": "Tokyo Night",
+  "monospaceFontFamily": "JetBrainsMono Nerd Font,RobotoMono Nerd Font Mono",
+  "textFontFamily": "JetBrainsMono Nerd Font,RobotoMono Nerd Font Mono",
+  "baseFontSizeAction": true,
+  "showRibbon": true,
+  "baseFontSize": 16
+}
