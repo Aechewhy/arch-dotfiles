@@ -6,6 +6,16 @@ Id_4=925b046d-36e3-4059-b39c-35985b1c4ab5
 Number=4
 Rows=1
 
+[Effect-better-blur-dx]
+BlurDecorations=true
+BlurDocks=true
+BlurMenus=true
+BlurStrength=4
+Brightness=80
+NoiseStrength=3
+Saturation=100
+WindowClasses=zen\norg.wezfurlong.wezterm\nghostty
+
 [Effect-blur]
 BlurStrength=6
 NoiseStrength=2
@@ -21,12 +31,18 @@ BorderActivate=9
 [Effect-translucency]
 Inactive=80
 
+[MouseBindings]
+CommandActiveTitlebar2=Toggle raise and lower
+CommandInactiveTitlebar2=Toggle raise and lower
+
 [NightColor]
 Active=true
 NightTemperature=3800
 
 [Plugins]
+better_blur_dxEnabled=true
 blurEnabled=false
+diminactiveEnabled=true
 forceblurEnabled=true
 minimizeallEnabled=true
 screenedgeEnabled=false
@@ -37,10 +53,8 @@ ActivitiesMode=2
 DesktopMode=2
 LayoutName=compact
 
-[Tiling]
-padding=4
-
 [Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][47f73707-bcf0-494f-bb00-533354c0e7cc]
@@ -53,18 +67,21 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][91680e46-20fa-4245-9c6e-fe9d4de19e11]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][91680e46-20fa-4245-9c6e-fe9d4de19e11]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][925b046d-36e3-4059-b39c-35985b1c4ab5][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][925b046d-36e3-4059-b39c-35985b1c4ab5][91680e46-20fa-4245-9c6e-fe9d4de19e11]
@@ -75,10 +92,12 @@ InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
 
 [Windows]
 ElectricBorderDelay=0
+Placement=Maximizing
 RollOverDesktops=true
 
 [Xwayland]
 Scale=1.15
 
 [org.kde.kdecoration2]
+library=org.kde.kwin.aurorae.v2
 theme=__aurorae__svg__TokyoNight

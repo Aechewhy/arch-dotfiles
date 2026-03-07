@@ -27,7 +27,7 @@ end)
 -- 	window:gui_window():set_inner_size(width, height)
 -- end)
 --Increase/Decrease opacity
-local opa_def = 0.9
+local opa_def = 0.7
 
 wezterm.on("inc-opacity", function(window, pane)
 	opa_def = opa_def + 0.1

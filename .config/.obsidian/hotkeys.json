@@ -78,14 +78,6 @@
       "key": "0"
     }
   ],
-  "workspace:split-horizontal": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "\\"
-    }
-  ],
   "editor:toggle-inline-math": [
     {
       "modifiers": [
@@ -154,6 +146,14 @@
     {
       "modifiers": [],
       "key": "F3"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "\\"
     }
   ]
 }

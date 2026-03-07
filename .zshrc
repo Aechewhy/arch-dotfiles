@@ -160,3 +160,5 @@ bindkey '^[[B' history-search-forward
 
 source ~/.config/zsh/prompt.zsh
 source ~/.config/zsh/aliases.zsh
+
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh #Put this at the last line 

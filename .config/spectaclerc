@@ -4,10 +4,11 @@ annotationToolType=9
 [General]
 autoSaveImage=true
 clipboardGroup=PostScreenshotCopyImage
+ocrLanguages=afr
 
 [ImageSave]
 imageFilenameTemplate=/<yyyy>-<MM>/<title>_<yyyy><MM><dd>_<HH><mm><ss>
-lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/2026-03/20260303_120331.png
+lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/2026-03/20260306_210147.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]

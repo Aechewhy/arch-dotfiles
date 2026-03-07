@@ -12,3 +12,6 @@ PointerAcceleration=0.600
 PointerAccelerationProfile=2
 ScrollFactor=0.3
 TapAndDrag=false
+
+[Mouse]
+cursorTheme=breeze_cursors

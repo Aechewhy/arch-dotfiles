@@ -111,8 +111,8 @@
             }
         ]
     },
-    "current_scene": "Window recording",
-    "current_program_scene": "Window recording",
+    "current_scene": "Screen recording",
+    "current_program_scene": "Screen recording",
     "scene_order": [
         {
             "name": "Screen recording"
@@ -219,7 +219,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "afefc447-710e-4cc1-a56f-7189ccf03e6f"
+                "RestoreToken": "61e34e76-2e3b-4f99-b0e6-336942ca3ee6"
             },
             "mixers": 0,
             "sync": 0,
