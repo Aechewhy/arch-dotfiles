@@ -8,10 +8,6 @@ Switch to Last-Used Keyboard Layout=none,Meta+Alt+L,Switch to Last-Used Keyboard
 Switch to Next Keyboard Layout=none,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
 
-[com.mitchellh.ghostty]
-CTRL+grave=Ctrl+`,Ctrl+`,toggle_quick_terminal
-_k_friendly_name=Ghostty
-
 [kaccess]
 Toggle Screen Reader On and Off=none,Meta+Alt+S,Toggle Screen Reader On and Off
 _k_friendly_name=Accessibility
@@ -283,9 +279,6 @@ switch to previous activity=none,,Switch to Previous Activity
 toggle do not disturb=none,,Toggle do not disturb
 
 [services][com.mitchellh.ghostty.desktop]
-_launch=Meta+Return
-
-[services][kitty.desktop]
 _launch=none
 
 [services][org.kde.konsole.desktop]
@@ -304,11 +297,16 @@ _launch=Ctrl+Shift+Esc
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
 RectangularRegionScreenShot=Meta+Shift+X
 _launch=Print
+
+[services][org.wezfurlong.wezterm.desktop]
+_launch=Meta+Return
 
 [services][systemsettings.desktop]
 _launch=Tools\t

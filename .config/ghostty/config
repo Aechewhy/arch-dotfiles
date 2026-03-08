@@ -66,10 +66,8 @@ window-decoration = none
 window-title-font-family = false
 window-subtitle = working-directory
 
-window-height = 60
+window-height = 30
 window-width = 90
-window-position-x = 960
-window-position-y = 540
 window-save-state = always 
 #BACKGROUND
 background-opacity = 0.5
@@ -139,7 +137,7 @@ custom-shader = ~/.config/ghostty/shaders/bloom.glsl
 custom-shader = ~/.config/ghostty/shaders/cursor_blaze.glsl
 custom-shader = ~/.config/ghostty/shaders/ripple_rectangle_cursor.glsl
 custom-shader = ~/.config/ghostty/shaders/sonic_boom_cursor.glsl
-custom-shader = ~/.config/ghostty/shaders/in-game-crt-cursor.glsl
+# custom-shader = ~/.config/ghostty/shaders/in-game-crt-cursor.glsl
 #MISC
 
 theme = TokyoNight
@@ -150,7 +148,8 @@ quit-after-last-window-closed = true
 shell-integration = detect
 shell-integration-features = true
 desktop-notifications = true
-undo-timeout = 10s
+undo-timeout = 5s
+fullscreen= false
 
 ######################################################################
 # KEYMAP
@@ -161,8 +160,8 @@ keybind = ctrl+shift+c=copy_to_clipboard
 keybind = ctrl+shift+v=paste_from_clipboard
 keybind = ctrl+alt+v=paste_from_selection
 #FONT SIZE
-keybind = ctrl+==increase_font_size
-keybind = ctrl+-=decrease_font_size
+keybind = ctrl+==increase_font_size:1
+keybind = ctrl+-=decrease_font_size:1
 keybind = ctrl+0=reset_font_size
 keybind = ctrl+a=select_all
 #SCROLL
@@ -170,8 +169,6 @@ keybind = ctrl+home=scroll_to_top
 keybind = ctrl+end=scroll_to_bottom
 keybind = page_up=scroll_page_up
 keybind = page_down=scroll_page_down
-keybind = alt+d=scroll_page_fractional:0.5
-keybind = alt+u=scroll_page_fractional:-0.5
 keybind = alt+up=scroll_page_lines:-3
 keybind = alt+down=scroll_page_lines:3
 #SELECT TEXT
@@ -190,7 +187,7 @@ keybind = F11=toggle_fullscreen
 keybind = F10=toggle_window_decorations
 #keybind = F7=toggle_window_float_on_top
 
-keybind = alt+space>0=reset_window_size 
+keybind = alt+space>0=reset_window_size
 keybind = alt+space>x=close_surface
 
 keybind = alt+t=new_tab

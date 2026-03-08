@@ -151,6 +151,7 @@ AnimationDurationFactor=0.35355339059327373
 LookAndFeelPackage=com.github.Jayy-Dev.Plasma.Tokyo.Night
 contrast=4
 frameContrast=0.2
+widgetStyle=Breeze
 
 [KFileDialog Settings]
 Allow Expansion=false

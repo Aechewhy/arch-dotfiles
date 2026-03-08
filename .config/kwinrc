@@ -10,9 +10,9 @@ Rows=1
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=4
+BlurStrength=3
 Brightness=80
-NoiseStrength=3
+NoiseStrength=2
 Saturation=100
 WindowClasses=zen\norg.wezfurlong.wezterm\nghostty
 
@@ -92,7 +92,6 @@ InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
 
 [Windows]
 ElectricBorderDelay=0
-Placement=Maximizing
 RollOverDesktops=true
 
 [Xwayland]
