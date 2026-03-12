@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0.15000000000000002
 ColorEffect=2
 ContrastAmount=0.8
 ContrastEffect=1
-Enable=
 IntensityAmount=-1
 IntensityEffect=2
 
@@ -133,54 +131,16 @@ ForegroundPositive=179,225,163
 ForegroundVisited=173,142,230
 
 [General]
-BrowserApplication=brave-browser.desktop
-ColorSchemeHash=b97562e9308a74623cceab30d237ce2d67fb72a8
-LastUsedCustomAccentColor=233,61,88
-TerminalApplication=wezterm start --cwd .
-TerminalService=org.wezfurlong.wezterm.desktop
-XftHintStyle=hintslight
-XftSubPixel=none
-fixed=JetBrainsMono Nerd Font,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
-menuFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
-smallestReadableFont=Roboto Medium,8,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
-toolBarFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
+ColorScheme=TokyoNight
+Name=Tokyo Night
+shadeSortColumn=true
 
 [KDE]
-AnimationDurationFactor=0.35355339059327373
-LookAndFeelPackage=com.github.Jayy-Dev.Plasma.Tokyo.Night
 contrast=4
-frameContrast=0.2
-widgetStyle=kvantum-dark
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=true
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=154
-View Style=DetailTree
-
-[Shortcuts]
-Activate Next Tab=Alt+.; Ctrl+PgDown; Ctrl+]
-Activate Previous Tab=Alt+,; Ctrl+[; Ctrl+PgUp
-Help=
-ShowHideHiddenFiles=Ctrl+.
-WhatsThis=
 
 [WM]
 activeBackground=26,27,38
 activeBlend=215,218,224
-activeFont=Roboto Medium,10,-1,5,500,0,0,0,0,0,0,0,0,0,0,1,Regular
 activeForeground=215,218,224
 inactiveBackground=26,27,38
 inactiveBlend=110,108,124

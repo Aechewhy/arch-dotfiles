@@ -1,0 +1,18 @@
+[General]
+count=2
+rules=d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a
+
+[d03895eb-49ef-4500-8b83-67ff3050090d]
+Description=No titlebars
+noborder=true
+noborderrule=2
+types=1
+
+[d160b35b-2294-4edc-9918-7ca90962980a]
+Description=Wezterm
+maximizehoriz=true
+maximizehorizrule=3
+maximizevert=true
+maximizevertrule=3
+wmclass=org.wezfurlong.wezterm
+wmclassmatch=1

@@ -24,9 +24,16 @@ function module.setup(config)
 	-- Visuals
 	config.enable_wayland = false
 	config.color_scheme = "Tokyo Night"
+	config.text_blink_ease_in = "EaseIn"
+	config.text_blink_ease_out = "EaseOut"
+	config.text_blink_rapid_ease_in = "EaseIn"
+	config.text_blink_rapid_ease_out = "EaseOut"
+	config.text_blink_rate = 500
+	config.text_blink_rate_rapid = 250
+
 	-- FONT
 	config.font = wezterm.font("JetBrains Mono")
-	config.font_size = 13.0
+	config.font_size = 12.0
 
 	config.animation_fps = 1
 	config.audible_bell = "Disabled"
@@ -35,8 +42,8 @@ function module.setup(config)
 	config.adjust_window_size_when_changing_font_size = false
 	config.window_decorations = "NONE"
 	config.hide_tab_bar_if_only_one_tab = true
-	config.initial_cols = 90
-	config.initial_rows = 30
+	config.initial_cols = 90 --172
+	config.initial_rows = 20 --45
 	config.quit_when_all_windows_are_closed = true
 	config.window_padding = {
 		left = "1%",

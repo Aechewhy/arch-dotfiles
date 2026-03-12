@@ -12,3 +12,11 @@ keymap.set("n", "<leader><leader>Q", ":q!<Return>", { desc = "Force Quit" })
 keymap.set("n", "<leader><leader>w", ":w<Return>", { desc = "Save file" })
 keymap.set("n", "<leader><leader>x", ":x<Return>", { desc = "Save and quit" })
 keymap.set("n", "<leader><leader>X", ":wqa<Return>", { desc = "Save and quit all files" })
+
+-- Custom snacks picker directories
+vim.keymap.set("n", "<leader>fC", function()
+  Snacks.picker.files({ cwd = "~/.config/" })
+end, { desc = "Search System Configs" })
+vim.keymap.set("n", "<leader>fn", function()
+  Snacks.picker.files({ cwd = "~/Documents/Obsidian Vaults/Brain/" })
+end, { desc = "Search Brain (Obsidian)" })

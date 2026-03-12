@@ -90,12 +90,12 @@ copy-on-select = true
 selection-clear-on-typing = false
 selection-clear-on-copy = false
 #QUICK TERMINAL
-quick-terminal-position = left
-quick-terminal-size = 50%, 50%
-gtk-quick-terminal-layer = overlay
-quick-terminal-screen = main
-quick-terminal-animation-duration = 0.2
-quick-terminal-autohide = true
+# quick-terminal-position = left
+# quick-terminal-size = 50%, 50%
+# gtk-quick-terminal-layer = overlay
+# quick-terminal-screen = main
+# quick-terminal-animation-duration = 0.2
+# quick-terminal-autohide = true
 #SHADERS
 custom-shader-animation = true
 # custom-shader = ~/.config/ghostty/shaders/animated-gradient-shader.glsl
@@ -212,5 +212,4 @@ keybind = alt+space>F5=reload_config
 keybind = alt+space>e=open_config
 #MISC
 keybind = ctrl+space=toggle_command_palette
-keybind = ctrl+`=toggle_quick_terminal
 keybind = alt+space>u=undo

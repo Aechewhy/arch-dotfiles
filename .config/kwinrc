@@ -11,10 +11,9 @@ BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
 BlurStrength=3
-Brightness=80
-NoiseStrength=2
+NoiseStrength=8
 Saturation=100
-WindowClasses=zen\norg.wezfurlong.wezterm\nghostty
+WindowClasses=zen\norg.wezfurlong.wezterm\nghostty\nbrave
 
 [Effect-blur]
 BlurStrength=6
@@ -37,7 +36,7 @@ CommandInactiveTitlebar2=Toggle raise and lower
 
 [NightColor]
 Active=true
-NightTemperature=3800
+NightTemperature=3300
 
 [Plugins]
 better_blur_dxEnabled=true
@@ -64,6 +63,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][91680e46-20fa-4245-9c6e-fe9d4de19e11]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
@@ -71,6 +71,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][91680e46-20fa-4245-9c6e-fe9d4de19e11]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
@@ -78,6 +79,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][91680e46-20fa-4245-9c6e-fe9d4de19e11]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][925b046d-36e3-4059-b39c-35985b1c4ab5][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
@@ -85,6 +87,7 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][925b046d-36e3-4059-b39c-35985b1c4ab5][91680e46-20fa-4245-9c6e-fe9d4de19e11]
+padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Wayland]
@@ -98,5 +101,6 @@ RollOverDesktops=true
 Scale=1.15
 
 [org.kde.kdecoration2]
+ButtonsOnRight=NHIAX
 library=org.kde.kwin.aurorae.v2
 theme=__aurorae__svg__TokyoNight

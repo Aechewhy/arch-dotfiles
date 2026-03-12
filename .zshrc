@@ -146,6 +146,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 eval "$(zoxide init zsh)"
+# export ZVM_CURSOR_STYLE_ENABLED=false
 
 # history setup
 HISTFILE=$HOME/.zhistory
@@ -158,8 +159,9 @@ setopt hist_verify
 bindkey '^[[A' history-search-backward
 bindkey '^[[B' history-search-forward
 
+
 source ~/.config/zsh/prompt.zsh
 source ~/.config/zsh/aliases.zsh
 source /etc/profile.d/wezterm.sh
-
-# source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh #Put this at the last line 
+source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh #Put this at the last line 
+fastfetch
