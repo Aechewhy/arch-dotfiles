@@ -281,6 +281,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][com.mitchellh.ghostty.desktop]
 _launch=none
 
+[services][kitty.desktop]
+_launch=Meta+Return
+
 [services][net.local.kitty-2.desktop]
 _launch=Meta+Ctrl+N
 
@@ -306,14 +309,13 @@ _launch=Ctrl+Shift+Esc
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
 RectangularRegionScreenShot=Meta+Shift+X
 _launch=Print
-
-[services][org.wezfurlong.wezterm.desktop]
-_launch=Meta+Return
 
 [services][systemsettings.desktop]
 _launch=Tools\t
