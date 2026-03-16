@@ -306,6 +306,8 @@ _launch=Ctrl+Shift+Esc
 _launch=Meta+.
 
 [services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 RecordRegion=none
 RecordScreen=none
 RecordWindow=none
