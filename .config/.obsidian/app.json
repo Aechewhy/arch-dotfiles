@@ -5,5 +5,5 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "spellcheck": false,
-  "strictLineBreaks": false
+  "strictLineBreaks": true
 }
