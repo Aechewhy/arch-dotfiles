@@ -1,9 +1,10 @@
 [Unit]
-Description=Run game save backup every 10 minutes
+Description=10-minute backup timer for %i
 
 [Timer]
 OnBootSec=5m
 OnUnitActiveSec=10m
+Persistent=true
 
 [Install]
 WantedBy=timers.target

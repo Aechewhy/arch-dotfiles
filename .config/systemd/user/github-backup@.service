@@ -1,0 +1,6 @@
+[Unit]
+Description=Automated Git Backup for %i
+
+[Service]
+Type=oneshot
+ExecStart=/home/aechewhy/.local/bin/github-backup.sh %i
