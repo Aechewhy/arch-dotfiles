@@ -12,5 +12,6 @@ return {
         path = "~/Documents/Obsidian Vaults/Brain/",
       },
     },
+    ui = { enable = false },
   },
 }

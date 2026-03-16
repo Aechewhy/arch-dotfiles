@@ -5,13 +5,14 @@ vim.g.mapleader = " "
 vim.api.nvim_create_autocmd("FileType", {
   pattern = "*",
   callback = function()
-    vim.opt_local.formatoptions:remove { "c", "r", "o" }
+    vim.opt_local.formatoptions:remove({ "c", "r", "o" })
   end,
 })
-vim.opt.listchars:remove('trail')
+vim.opt.listchars:remove("trail")
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 vim.opt.wrap = true
-
+vim.opt.conceallevel = 2
 vim.o.mouse = ""
 vim.g.snacks_animate = false
+vim.opt.swapfile = false
