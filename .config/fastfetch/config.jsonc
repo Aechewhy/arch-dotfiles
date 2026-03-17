@@ -228,18 +228,18 @@
       "type": "font",
       "keyIcon": "",
     },
-    {
-      "type": "cursor",
-      "keyIcon": "󰆿",
-    },
+    // {
+    //   "type": "cursor",
+    //   "keyIcon": "󰆿",
+    // },
     {
       "type": "terminal",
       "keyIcon": "",
     },
-    {
-      "type": "terminalfont",
-      "keyIcon": "",
-    },
+    // {
+    //   "type": "terminalfont",
+    //   "keyIcon": "",
+    // },
     {
       "type": "cpu",
       "keyIcon": "",
@@ -327,10 +327,10 @@
       "type": "poweradapter",
       "keyIcon": "󰚥",
     },
-    {
-      "type": "locale",
-      "keyIcon": "",
-    },
+    // {
+    //   "type": "locale",
+    //   "keyIcon": "",
+    // },
     "break",
     {
       "type": "colors",

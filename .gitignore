@@ -18,6 +18,8 @@
 
 .config/obs-studio/.sentinel
 
+.config/filetypesrc
+
 *.log
 *.bak
 *.swp

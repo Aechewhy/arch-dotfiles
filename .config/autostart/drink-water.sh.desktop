@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=/home/aechewhy/.local/bin/drink-water.sh
+GenericName[en_US]=
+GenericName=
+Icon=application-x-shellscript
+MimeType=
+Name[en_US]=drink-water.sh
+Name=drink-water.sh
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-AutostartScript=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

@@ -1,0 +1,31 @@
+[Desktop Entry]
+FullScreen=false
+
+[General]
+LockSidebar=true
+ShowSidebar=false
+
+[MainWindow]
+MenuBar=Disabled
+
+[Recent Files]
+File1[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Shoji_Makino_Kouei_Yamaoka_APSIPA_ASC26_CfP_SS_complete_proposal - Kouei Yamaoka.pdf
+File10[$e]=$HOME/Downloads/Solution ISAC.pdf
+File2[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/SpecialSessionProposal_IanMcLoughlin_final - Ian McLoughlin.pdf
+File3[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Tetsuro_Kitahara_APSIPA_ASC26_CfP_SS_complete_proposal - キタハラテツロウ.pdf
+File4[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Thanh-Hai Tran, Hai Vu, Cheng-Kai Lu, Li-Wei Kang_APSIPA_ASC26_CfP_SS_complete_proposal_update.pdf
+File5[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/TranHiepDinh_APSIPA_ASC26_CfP_complete_proposal - Hiep Dinh.pdf
+File6[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Trio Adiono_APSIPA_ASC26_CfP_SS_complete_proposal - Ferriady Setiawan.pdf
+File7[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/updated_Hoang Thi Yen_APSIPA_2026_SPECIAL SESSION PROPOSAL.pdf
+File8[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Volodymyr Khilenko_APSIPA_ASC26_CfP_SS_complete_proposal - Volodymyr Khylenko.pdf
+File9[$e]=$HOME/Downloads/OneDrive_1_3-16-2026/Yuchao_DAI_APSIPA_ASC26_CfP_SS_complete_proposal.pdf - Yuchao Dai.pdf
+Name1[$e]=Shoji_Makino_Kouei_Yamaoka_APSIPA_ASC26_CfP_SS_complete_proposal - Kouei Yamaoka.pdf
+Name10[$e]=Solution ISAC.pdf
+Name2[$e]=SpecialSessionProposal_IanMcLoughlin_final - Ian McLoughlin.pdf
+Name3[$e]=Tetsuro_Kitahara_APSIPA_ASC26_CfP_SS_complete_proposal - キタハラテツロウ.pdf
+Name4[$e]=Thanh-Hai Tran, Hai Vu, Cheng-Kai Lu, Li-Wei Kang_APSIPA_ASC26_CfP_SS_complete_proposal_update.pdf
+Name5[$e]=TranHiepDinh_APSIPA_ASC26_CfP_complete_proposal - Hiep Dinh.pdf
+Name6[$e]=Trio Adiono_APSIPA_ASC26_CfP_SS_complete_proposal - Ferriady Setiawan.pdf
+Name7[$e]=updated_Hoang Thi Yen_APSIPA_2026_SPECIAL SESSION PROPOSAL.pdf
+Name8[$e]=Volodymyr Khilenko_APSIPA_ASC26_CfP_SS_complete_proposal - Volodymyr Khylenko.pdf
+Name9[$e]=Yuchao_DAI_APSIPA_ASC26_CfP_SS_complete_proposal.pdf - Yuchao Dai.pdf
