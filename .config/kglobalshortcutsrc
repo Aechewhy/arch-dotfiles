@@ -290,6 +290,9 @@ _launch=Meta+Ctrl+N
 [services][net.local.kitty.desktop]
 _launch=Meta+Shift+N
 
+[services][net.local.toggle-panel.sh.desktop]
+_launch=Meta+Y
+
 [services][nvim.desktop]
 _launch=Meta+N
 
