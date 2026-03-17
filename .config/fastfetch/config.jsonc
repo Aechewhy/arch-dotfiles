@@ -182,10 +182,10 @@
       "type": "kernel",
       "keyIcon": "",
     },
-    {
-      "type": "uptime",
-      "keyIcon": "",
-    },
+    // {
+    //   "type": "uptime",
+    //   "keyIcon": "",
+    // },
     {
       "type": "packages",
       "keyIcon": "󰏖",
@@ -224,10 +224,10 @@
       "type": "icons",
       "keyIcon": "",
     },
-    {
-      "type": "font",
-      "keyIcon": "",
-    },
+    // {
+    //   "type": "font",
+    //   "keyIcon": "",
+    // },
     // {
     //   "type": "cursor",
     //   "keyIcon": "󰆿",
@@ -313,20 +313,20 @@
       "showAllIps": false,
       "namePrefix": "",
     },
-    {
-      "type": "battery",
-      "keyIcon": "",
-      "temp": false,
-      "percent": {
-        "green": 50,
-        "yellow": 20,
-        "type": 0,
-      },
-    },
-    {
-      "type": "poweradapter",
-      "keyIcon": "󰚥",
-    },
+    // {
+    //   "type": "battery",
+    //   "keyIcon": "",
+    //   "temp": false,
+    //   "percent": {
+    //     "green": 50,
+    //     "yellow": 20,
+    //     "type": 0,
+    //   },
+    // },
+    // {
+    //   "type": "poweradapter",
+    //   "keyIcon": "󰚥",
+    // },
     // {
     //   "type": "locale",
     //   "keyIcon": "",
