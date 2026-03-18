@@ -133,5 +133,5 @@ Scale=1.15
 BorderSize=Large
 BorderSizeAuto=false
 ButtonsOnRight=NHIAX
-library=org.kde.kwin.aurorae.v2
-theme=__aurorae__svg__TokyoNight
+library=org.kde.klassy
+theme=Klassy
