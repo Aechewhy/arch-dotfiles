@@ -41,7 +41,6 @@ NightTemperature=3300
 [Plugins]
 better_blur_dxEnabled=true
 blurEnabled=false
-diminactiveEnabled=true
 forceblurEnabled=true
 minimizeallEnabled=true
 screenedgeEnabled=false
@@ -130,6 +129,8 @@ RollOverDesktops=true
 Scale=1.15
 
 [org.kde.kdecoration2]
+BorderSize=Large
+BorderSizeAuto=false
 ButtonsOnRight=NHIAX
 library=org.kde.kwin.aurorae.v2
 theme=__aurorae__svg__TokyoNight
