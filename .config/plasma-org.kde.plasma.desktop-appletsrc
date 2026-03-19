@@ -261,8 +261,8 @@ immutability=1
 plugin=org.kde.plasma.kicker
 
 [Containments][161][Applets][202][Configuration]
-popupHeight=375
-popupWidth=525
+popupHeight=468
+popupWidth=312
 
 [Containments][161][Applets][202][Configuration][General]
 favoritesPortedToKAstats=true
