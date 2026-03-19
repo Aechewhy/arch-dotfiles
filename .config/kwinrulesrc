@@ -13,7 +13,6 @@ wmclassmatch=1
 
 [d03895eb-49ef-4500-8b83-67ff3050090d]
 Description=No titlebars
-Enabled=false
 noborder=true
 noborderrule=2
 types=1
