@@ -25,7 +25,7 @@ Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/City.jpg
 SlidePaths=/home/aechewhy/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][134][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/sakura-gate.jpg
+Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/tokyonight_original.png
 SlideInterval=300
 SlidePaths=/home/aechewhy/Pictures/Wallpapers/Catppuccin/,/home/aechewhy/Pictures/Wallpapers/Tokyonight/
 UncheckedSlides=/home/aechewhy/Pictures/Wallpapers/Tokyonight/pacman.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/neovim.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/void_original.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/Binary.png
@@ -284,7 +284,7 @@ Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/tokyonight_original.p
 SlidePaths=/home/aechewhy/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][197][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/cabin-3.png
+Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/void_upscaled.png
 SlideInterval=300
 SlidePaths=/home/aechewhy/Pictures/Wallpapers/Catppuccin/,/home/aechewhy/Pictures/Wallpapers/Tokyonight/
 UncheckedSlides=/home/aechewhy/Pictures/Wallpapers/Tokyonight/pacman.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/neovim.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/void_original.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/Binary.png
