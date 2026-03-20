@@ -10,8 +10,7 @@ Rows=1
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=4
-NoiseStrength=8
+BlurStrength=5
 Saturation=100
 WindowClasses=zen\norg.wezfurlong.wezterm\nghostty\nbrave
 
@@ -39,7 +38,6 @@ Active=true
 NightTemperature=3300
 
 [Plugins]
-better_blur_dxEnabled=true
 blurEnabled=true
 diminactiveEnabled=true
 dimscreenEnabled=false
