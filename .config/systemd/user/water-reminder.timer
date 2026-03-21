@@ -1,0 +1,9 @@
+[Unit]
+Description=Hydration Reminder Timer
+
+[Timer]
+OnActiveSec=5m
+OnUnitActiveSec=30m
+
+[Install]
+WantedBy=timers.target

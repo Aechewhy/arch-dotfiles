@@ -1,0 +1,6 @@
+[Unit]
+Description=Hydration Notification Trigger
+
+[Service]
+Type=oneshot
+ExecStart=%h/.local/bin/water-reminder.sh
