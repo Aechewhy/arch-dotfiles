@@ -211,7 +211,7 @@ DialogHeight=630
 DialogWidth=809
 
 [Containments][161][Applets][193][Configuration][General]
-sensors=[{"name":"dGPU","sensorId":"gpu/gpu2/temperature"},{"name":"CPU","sensorId":"cpu/all/maximumTemperature"}]
+sensors=[{"name":"CPU","sensorId":"cpu/all/maximumTemperature"},{"name":"dGPU","sensorId":"gpu/gpu2/temperature"}]
 
 [Containments][161][Applets][195]
 immutability=1
