@@ -2,5 +2,5 @@
 
 while true; do
   sleep 1800
-  notify-send "💧Drink some water!"
+  notify-send "Your dehydrated body" "💧Drink some water!"
 done
