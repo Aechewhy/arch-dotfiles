@@ -55,6 +55,10 @@ ActivitiesMode=2
 DesktopMode=2
 LayoutName=compact
 
+[Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][0d2871b0-d5d6-43aa-ae86-8732dfe368b0]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][3958e18d-d22f-4370-9684-8ca9254a5662][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -78,6 +82,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][0d2871b0-d5d6-43aa-ae86-8732dfe368b0]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -98,6 +106,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Tiling][78e76747-5efe-4d52-9796-024c36c384c5][0d2871b0-d5d6-43aa-ae86-8732dfe368b0]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -115,6 +127,10 @@ padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][78e76747-5efe-4d52-9796-024c36c384c5][c506e082-db18-48a8-af02-b40533150fbb]
+padding=4
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][925b046d-36e3-4059-b39c-35985b1c4ab5][0d2871b0-d5d6-43aa-ae86-8732dfe368b0]
 padding=4
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
