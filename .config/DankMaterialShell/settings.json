@@ -464,7 +464,7 @@
       "autoHideDelay": 250,
       "showOnWindowsOpen": true,
       "openOnOverview": false,
-      "visible": true,
+      "visible": false,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
       "maximizeDetection": true,

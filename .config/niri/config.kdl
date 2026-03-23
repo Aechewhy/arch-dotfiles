@@ -394,7 +394,6 @@ binds {
     Mod+Alt+L {spawn "dms" "ipc" "call" "lock" "lock";}
     Mod+Escape {spawn "dms" "ipc" "call" "powermenu" "toggle";}
     Mod+Shift+C { spawn "dms" "ipc" "call" "clipboard" "toggle"; }
-    Mod+B {spawn "dms" "ipc" "call" "status" "name" "Main Bar"}
 
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" {spawn "fuzzel";}
     // Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
