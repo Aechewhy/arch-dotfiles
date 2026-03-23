@@ -344,6 +344,14 @@ window-rule {
     default-column-width { fixed 800; }
     default-window-height { fixed 600; }
 }
+window-rule{
+// Matches the common Steam game window class
+    match app-id="^steam_app_.*"
+    match app-id="hl2_linux" // Specific to Left 4 Dead 2
+    
+    // Forces Niri to maximize it instantly
+    open-fullscreen true
+}
 
 // Example: block out two password managers from screen capture.
 // (This example rule is commented out with a "/-" in front.)
@@ -384,6 +392,7 @@ binds {
     Mod+Space { spawn "dms" "ipc" "call" "spotlight" "toggle"; }
     Mod+N { spawn "dms" "ipc" "call" "notifications" "toggle"; }
     Mod+Alt+L {spawn "dms" "ipc" "call" "lock" "lock";}
+    Mod+Escape {spawn "dms" "ipc" "call" "powermenu" "toggle";}
 
     Mod+D hotkey-overlay-title="Run an Application: fuzzel" {spawn "fuzzel";}
     // Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
@@ -635,7 +644,7 @@ binds {
     //
     // The allow-inhibiting=false property can be applied to other binds as well,
     // which ensures niri always processes them, even when an inhibitor is active.
-    Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
+    // Mod+Escape allow-inhibiting=false { toggle-keyboard-shortcuts-inhibit; }
 
     // The quit action will show a confirmation dialog to avoid accidental exits.
     Mod+Shift+E { quit; }
