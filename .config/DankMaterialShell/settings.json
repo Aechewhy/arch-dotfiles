@@ -405,10 +405,17 @@
       "showOnLastDisplay": true,
       "leftWidgets": [
         {
+          "id": "powerMenuButton",
+          "enabled": true
+        },
+        {
           "id": "launcherButton",
           "enabled": true
         },
-        "workspaceSwitcher",
+        {
+          "id": "workspaceSwitcher",
+          "enabled": true
+        },
         {
           "id": "focusedWindow",
           "enabled": true,
