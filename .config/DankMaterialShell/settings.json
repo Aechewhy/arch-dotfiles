@@ -502,7 +502,7 @@
       "widgetOutlineThickness": 1,
       "fontScale": 1.25,
       "iconScale": 1.25,
-      "autoHide": true,
+      "autoHide": false,
       "autoHideDelay": 250,
       "showOnWindowsOpen": true,
       "openOnOverview": false,
