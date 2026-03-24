@@ -656,7 +656,10 @@ binds {
     // Toggle tabbed column display mode.
     // Windows in this column will appear as vertical tabs,
     // rather than stacked on top of each other.
-    Mod+W { toggle-column-tabbed-display; }
+    Mod+Shift+W { toggle-column-tabbed-display; }
+    Mod+W { 
+            spawn "bash" "-c" "id=$(niri msg -j windows | jq '.[] | select(.app_id == \"brave\") | .id' | head -n 1); if [ -n \"$id\" ]; then niri msg action focus-window --id \"$id\"; else brave; fi" 
+        }
     Alt+Space {
             spawn "bash" "-c" "niri msg -j windows | jq -r '.[] | \"\\(.id) \\(.app_id): \\(.title)\"' | fuzzel --dmenu | awk '{print $1}' | xargs -r niri msg action focus-window --id"
         }
