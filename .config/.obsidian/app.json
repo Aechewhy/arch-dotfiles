@@ -1,7 +1,7 @@
 {
   "showLineNumber": true,
   "attachmentFolderPath": "Attachments",
-  "vimMode": true,
+  "vimMode": false,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "spellcheck": false,
