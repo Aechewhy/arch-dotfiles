@@ -662,5 +662,3 @@ binds {
 include "dms/cursor.kdl"
 include "dms/binds.kdl"
 include "dms/windowrules.kdl"
-
-include "dms/outputs.kdl"
