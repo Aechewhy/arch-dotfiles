@@ -8,9 +8,9 @@ PointerAcceleration=1.000
 DisableWhileTyping=true
 Enabled=true
 NaturalScroll=true
-PointerAcceleration=0.600
+PointerAcceleration=0.800
 PointerAccelerationProfile=2
-ScrollFactor=0.1
+ScrollFactor=0.3
 TapAndDrag=false
 
 [Mouse]
