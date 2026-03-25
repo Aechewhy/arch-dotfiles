@@ -304,7 +304,7 @@ DialogHeight=939
 DialogWidth=1670
 
 [Containments][201][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/paint.jpg
+Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/sakura-gate.jpg
 SlideInterval=300
 SlidePaths=/home/aechewhy/Pictures/Wallpapers/Catppuccin/,/home/aechewhy/Pictures/Wallpapers/Tokyonight/
 UncheckedSlides=/home/aechewhy/Pictures/Wallpapers/Tokyonight/pacman.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/neovim.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/void_original.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/Binary.png
