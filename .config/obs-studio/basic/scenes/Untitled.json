@@ -1,6 +1,7 @@
 {
+    "name": "Untitled",
     "DesktopAudioDevice1": {
-        "prev_ver": 536870916,
+        "prev_ver": 536936448,
         "name": "Desktop Audio",
         "uuid": "f7c6e29a-1028-4ab3-b065-daba86070456",
         "id": "pulse_output_capture",
@@ -31,7 +32,7 @@
         "private_settings": {}
     },
     "AuxAudioDevice1": {
-        "prev_ver": 536870916,
+        "prev_ver": 536936448,
         "name": "Mic/Aux",
         "uuid": "0c0e0068-f8f3-4000-81cb-18d2bb873265",
         "id": "pulse_input_capture",
@@ -62,7 +63,7 @@
         "private_settings": {},
         "filters": [
             {
-                "prev_ver": 536870916,
+                "prev_ver": 536936448,
                 "name": "Noise Gate",
                 "uuid": "58a539ba-f3be-40d0-865a-31284851a9c3",
                 "id": "noise_gate_filter",
@@ -86,7 +87,7 @@
                 "private_settings": {}
             },
             {
-                "prev_ver": 536870916,
+                "prev_ver": 536936448,
                 "name": "Noise Suppression",
                 "uuid": "1a98f77d-1600-4520-b87a-f7f73f6be691",
                 "id": "noise_suppress_filter",
@@ -111,20 +112,61 @@
             }
         ]
     },
-    "current_scene": "Screen recording",
-    "current_program_scene": "Screen recording",
-    "scene_order": [
-        {
-            "name": "Screen recording"
-        },
-        {
-            "name": "Window recording"
-        }
-    ],
-    "name": "Untitled",
     "sources": [
         {
-            "prev_ver": 536870916,
+            "prev_ver": 536936448,
+            "name": "Screen Capture (PipeWire)",
+            "uuid": "3c857603-e041-4128-aef5-443d80c7cb03",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": "20474e03-5eb0-42f2-a440-960b742e460c"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536936448,
+            "name": "Screen Capture (PipeWire) 2",
+            "uuid": "4873d602-ddda-4511-9d2c-b589d7b43b29",
+            "id": "pipewire-screen-capture-source",
+            "versioned_id": "pipewire-screen-capture-source",
+            "settings": {
+                "RestoreToken": "5984630f-5a55-48f3-9622-703bff6e208d"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 536936448,
             "name": "Screen recording",
             "uuid": "9f8dea56-196d-42b5-9ce7-d997d3a2329c",
             "id": "scene",
@@ -213,33 +255,7 @@
             "private_settings": {}
         },
         {
-            "prev_ver": 536870916,
-            "name": "Screen Capture (PipeWire)",
-            "uuid": "3c857603-e041-4128-aef5-443d80c7cb03",
-            "id": "pipewire-screen-capture-source",
-            "versioned_id": "pipewire-screen-capture-source",
-            "settings": {
-                "RestoreToken": "61e34e76-2e3b-4f99-b0e6-336942ca3ee6"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
-        },
-        {
-            "prev_ver": 536870916,
+            "prev_ver": 536936448,
             "name": "Window recording",
             "uuid": "c3bf4ee8-9ea8-45ac-871f-7a36e3776db6",
             "id": "scene",
@@ -326,35 +342,23 @@
             "monitoring_type": 0,
             "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
             "private_settings": {}
-        },
-        {
-            "prev_ver": 536870916,
-            "name": "Screen Capture (PipeWire) 2",
-            "uuid": "4873d602-ddda-4511-9d2c-b589d7b43b29",
-            "id": "pipewire-screen-capture-source",
-            "versioned_id": "pipewire-screen-capture-source",
-            "settings": {
-                "RestoreToken": "539b439a-eebd-4e4f-ad35-0f9cd1e38c22"
-            },
-            "mixers": 0,
-            "sync": 0,
-            "flags": 0,
-            "volume": 1.0,
-            "balance": 0.5,
-            "enabled": true,
-            "muted": false,
-            "push-to-mute": false,
-            "push-to-mute-delay": 0,
-            "push-to-talk": false,
-            "push-to-talk-delay": 0,
-            "hotkeys": {},
-            "deinterlace_mode": 0,
-            "deinterlace_field_order": 0,
-            "monitoring_type": 0,
-            "private_settings": {}
         }
     ],
     "groups": [],
+    "scene_order": [
+        {
+            "name": "Screen recording"
+        },
+        {
+            "name": "Window recording"
+        }
+    ],
+    "current_scene": "Screen recording",
+    "current_program_scene": "Screen recording",
+    "canvases": [],
+    "current_transition": "Fade",
+    "transition_duration": 300,
+    "transitions": [],
     "quick_transitions": [
         {
             "name": "Cut",
@@ -378,11 +382,7 @@
             "fade_to_black": true
         }
     ],
-    "transitions": [],
     "saved_projectors": [],
-    "canvases": [],
-    "current_transition": "Fade",
-    "transition_duration": 300,
     "preview_locked": false,
     "scaling_enabled": false,
     "scaling_level": -9,
