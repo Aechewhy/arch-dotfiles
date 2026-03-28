@@ -8,7 +8,8 @@ ocrLanguages=afr
 
 [ImageSave]
 imageFilenameTemplate=/<yyyy>-<MM>/<title>_<yyyy><MM><dd>_<HH><mm><ss>
-lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/2026-03/20260326_231000.png
+lastImageSaveAsLocation=file:///home/aechewhy/Pictures/Screenshots/2026-03/20260329_010949.png
+lastImageSaveLocation=file:///home/aechewhy/Pictures/Screenshots/2026-03/20260329_010949.png
 translatedScreenshotsFolder=Screenshots
 
 [VideoSave]
