@@ -16,8 +16,8 @@ Seen=true
 [Applications][zalo]
 Seen=true
 
-[DoNotDisturb]
-NotificationSoundsMuted=true
+[Applications][zen]
+Seen=true
 
 [Notifications]
 PopupPosition=BottomRight
