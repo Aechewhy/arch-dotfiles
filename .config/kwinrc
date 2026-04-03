@@ -163,8 +163,6 @@ RollOverDesktops=true
 Scale=1.15
 
 [org.kde.kdecoration2]
-BorderSize=Large
-BorderSizeAuto=false
-ButtonsOnRight=NHIAX
-library=org.kde.klassy
-theme=Klassy
+ButtonsOnRight=HNIAX
+library=org.kde.kwin.aurorae.v2
+theme=__aurorae__svg__TokyoNight
