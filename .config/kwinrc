@@ -9,13 +9,11 @@ Rows=1
 [Effect-better-blur-dx]
 BlurDecorations=true
 BlurDocks=true
-BlurMatching=false
 BlurMenus=true
-BlurNonMatching=true
 BlurStrength=4
 NoiseStrength=3
 Saturation=100
-WindowClasses=
+WindowClasses=kitty\norg.wezfurlong.wezterm
 
 [Effect-blur]
 BlurStrength=6
