@@ -175,7 +175,7 @@ keymap = [
 
 	# Operation
 	{ on = "o",         run = "open --interactive",                        desc = "Open selected files" },
-{ on = ["R"], run = "shell 'dolphin --select \"$1\"' --orphan", desc = "Reveal hovered file" }
+  { on = ["R"], run = "shell 'dolphin --select \"$1\"' --orphan", desc = "Reveal hovered file" },
   { on = ["R"],   run = "shell --orphan -- dolphin --select \"%0\"",                desc = "Reveal selected files" },
 
   # { on = ["R"],     run  = "shell --orphan -- xdg-open \"$(dirname \"%0\")\"",   desc = "Reveal selected files" },
