@@ -50,7 +50,7 @@ DialogWidth=809
 
 [Containments][161][Applets][162][Configuration][General]
 iconSpacing=0
-launchers=applications:kitty.desktop,preferred://browser,applications:obsidian.desktop,preferred://filemanager,applications:org.kde.okular.desktop,applications:brave-khmlcabibblfpfhmkfpaiblbijoggmaa-Default.desktop,applications:com.github.johnfactotum.Foliate.desktop,applications:org.wezfurlong.wezterm.desktop
+launchers=applications:kitty.desktop,preferred://browser,applications:firefox.desktop,applications:obsidian.desktop,preferred://filemanager,applications:org.kde.okular.desktop,applications:brave-khmlcabibblfpfhmkfpaiblbijoggmaa-Default.desktop,applications:com.github.johnfactotum.Foliate.desktop,applications:org.wezfurlong.wezterm.desktop
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
 
