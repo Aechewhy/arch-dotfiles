@@ -266,7 +266,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][161][Applets][202][Configuration]
 popupHeight=468
-popupWidth=312
+popupWidth=681
 
 [Containments][161][Applets][202][Configuration][General]
 favoritesPortedToKAstats=true
