@@ -278,8 +278,8 @@ favoritesPortedToKAstats=true
 AppletOrder=202;162;200;198;199;195;193;163;183;184
 
 [Containments][197]
-ItemGeometries-1670x939=Applet-203:1216,144,448,448,0;
-ItemGeometriesHorizontal=Applet-203:1216,144,448,448,0;
+ItemGeometries-1670x939=
+ItemGeometriesHorizontal=
 activityId=8701c2f2-a516-450f-a727-abdec5df0c7c
 formfactor=0
 immutability=1
@@ -287,15 +287,6 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.slideshow
-
-[Containments][197][Applets][203]
-immutability=1
-plugin=org.kde.plasma.notes
-
-[Containments][197][Applets][203][Configuration][General]
-cursorPosition=53
-fontSize=10
-noteId=6ff342c4-7fab-4dbc-ba51-64e933e10b
 
 [Containments][197][Wallpaper][org.kde.image][General]
 Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/tokyonight_original.png
