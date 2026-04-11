@@ -146,7 +146,7 @@
             "id": "pipewire-screen-capture-source",
             "versioned_id": "pipewire-screen-capture-source",
             "settings": {
-                "RestoreToken": "5984630f-5a55-48f3-9622-703bff6e208d"
+                "RestoreToken": "92585b03-03ec-41a3-8e72-9231abaffdd0"
             },
             "mixers": 0,
             "sync": 0,
@@ -353,8 +353,8 @@
             "name": "Window recording"
         }
     ],
-    "current_scene": "Screen recording",
-    "current_program_scene": "Screen recording",
+    "current_scene": "Window recording",
+    "current_program_scene": "Window recording",
     "canvases": [],
     "current_transition": "Fade",
     "transition_duration": 300,
