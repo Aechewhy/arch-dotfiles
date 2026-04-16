@@ -10,6 +10,9 @@ Seen=true
 [Applications][net.lutris.Lutris]
 Seen=true
 
+[Applications][org.qbittorrent.qBittorrent]
+Seen=true
+
 [Applications][timeshift-gtk]
 Seen=true
 
