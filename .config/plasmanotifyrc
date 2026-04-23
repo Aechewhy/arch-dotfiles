@@ -22,8 +22,5 @@ Seen=true
 [Applications][zen]
 Seen=true
 
-[DoNotDisturb]
-NotificationSoundsMuted=true
-
 [Notifications]
 PopupPosition=BottomRight
