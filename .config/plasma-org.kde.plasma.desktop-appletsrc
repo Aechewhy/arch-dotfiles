@@ -27,7 +27,7 @@ Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/City.jpg
 SlidePaths=/home/aechewhy/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][134][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/flying-comets-clouds.jpg
+Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/sun-ship.jpg
 SlideInterval=300
 SlidePaths=/home/aechewhy/Pictures/Wallpapers/Catppuccin/,/home/aechewhy/Pictures/Wallpapers/Tokyonight/
 UncheckedSlides=/home/aechewhy/Pictures/Wallpapers/Tokyonight/pacman.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/neovim.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/void_original.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/Binary.png
@@ -270,7 +270,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][161][Applets][202][Configuration]
 popupHeight=468
-popupWidth=681
+popupWidth=312
 
 [Containments][161][Applets][202][Configuration][General]
 favoritesPortedToKAstats=true
