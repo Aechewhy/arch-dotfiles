@@ -21,6 +21,7 @@ Word Wrap Marker=false
 
 [MainWindow]
 1670x939 screen: Window-Maximized=true
+2 screens: Window-Maximized=true
 
 [UiSettings]
 ColorScheme=TokyoNight
