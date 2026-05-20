@@ -153,6 +153,11 @@ use = "walldmtd/confirm-open"
 rev = "058b916"
 hash = "c86ac0d7f358e800ef43f7a714d500cb"
 
+[[plugin.deps]]
+use = "grimandgreedy/ffmpeg-stats"
+rev = "ffa206f"
+hash = "79347431117e15939c4172d21b678dcb"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"

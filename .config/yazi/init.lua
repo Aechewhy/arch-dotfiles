@@ -98,6 +98,21 @@ require("projects"):setup({
 require("confirm-open"):setup({
 	threshold = 10, -- Change as desired
 })
+require("ffmpeg-stats"):setup({
+	-- Which stats should be shown by default upon opening yazi
+	duration = false,
+	resolution = false,
+	codec = false,
+	fps = false,
+	bitrate = false,
+	audio_codec = false,
+	audio_channels = false,
+	format = false,
+	aspect = false,
+
+	-- Uses theme colour by default
+	-- style = ui.Style():fg("cyan"),
+})
 -- Restore deleted files
 require("restore"):setup({
 	-- Set the position for confirm and overwrite prompts.

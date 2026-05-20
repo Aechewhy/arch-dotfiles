@@ -147,6 +147,21 @@ prepend_keymap = [
     { on = [ "m", "m" ], run = [ "linemode mtime", "plugin pref-by-location -- save" ],       desc = "Linemode: mtime" },
     { on = [ "m", "o" ], run = [ "linemode owner", "plugin pref-by-location -- save" ],       desc = "Linemode: owner" },
     { on = [ "m", "n" ], run = [ "linemode none", "plugin pref-by-location -- save" ],        desc = "Linemode: none" },
+
+## ffmpeg linemodes - toggle individual stats
+    { on = [ "m", "f", "d" ], run = "plugin ffmpeg-stats -- toggle-duration", desc = "Toggle duration" },
+    { on = [ "m", "f", "r" ], run = "plugin ffmpeg-stats -- toggle-resolution", desc = "Toggle resolution" },
+    { on = [ "m", "f", "c" ], run = "plugin ffmpeg-stats -- toggle-codec", desc = "Toggle codec" },
+    { on = [ "m", "f", "f" ], run = "plugin ffmpeg-stats -- toggle-fps", desc = "Toggle FPS" },
+    { on = [ "m", "f", "b" ], run = "plugin ffmpeg-stats -- toggle-bitrate", desc = "Toggle bitrate" },
+    { on = [ "m", "f", "a" ], run = "plugin ffmpeg-stats -- toggle-audio-codec", desc = "Toggle audio codec" },
+    { on = [ "m", "f", "h" ], run = "plugin ffmpeg-stats -- toggle-audio-channels", desc = "Toggle audio channels" },
+    { on = [ "m", "f", "o" ], run = "plugin ffmpeg-stats -- toggle-format", desc = "Toggle format" },
+    { on = [ "m", "f", "s" ], run = "plugin ffmpeg-stats -- toggle-aspect", desc = "Toggle aspect ratio" },
+
+# Bulk toggle operations
+    { on = [ "m", "f", "A" ], run = "plugin ffmpeg-stats -- toggle-all", desc = "Toggle all stats" },
+    { on = [ "m", "f", "D" ], run = "plugin ffmpeg-stats -- disable-all", desc = "Disable all stats" },
     # Custom size_and_mtime linemode
     # { on = [ "u", "S" ], run = [ "linemode size_and_mtime", "plugin pref-by-location -- save" ], desc = "Show Size and Modified time" },
 
