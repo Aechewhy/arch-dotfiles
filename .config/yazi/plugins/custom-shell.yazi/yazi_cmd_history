@@ -1,0 +1,2 @@
+zsh -ic 'ls;read'
+zsh -ic 'lgit;exit'

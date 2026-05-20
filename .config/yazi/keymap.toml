@@ -4,15 +4,21 @@
 
 [mgr]
 prepend_keymap = [
+  # Custom Shell Core Modes
+	{ on = [ "`", "1" ], run = "plugin custom-shell -- auto --wait", desc = "Custom shell (Zsh wait mode)" },
+	{ on = [ "`", "h" ], run = "plugin custom-shell history", desc = "Show custom-shell history" },
+	{ on = [ "`", ";" ], run = "plugin custom-shell -- auto --interactive", desc = "Custom shell (Interactive background)" },
+	{ on = [ "`", ":" ], run = "plugin custom-shell -- auto --interactive --block", desc = "Custom shell (Interactive block)" },
+  # Drop to shell
+	{ on = [ "`", "`" ], run = 'shell "$SHELL" --block', desc = "Drop to terminal here" },
   #Mount manager
+
 	{ on = "M", run = "plugin mount", desc = "Open Mount Manager" },
   #Zoom preview images
   { on = "+", run = "plugin zoom 1", desc = "Zoom in hovered file" },
 	{ on = "_", run = "plugin zoom -1", desc = "Zoom out hovered file" },
   # Drag and drop
 	{ on = "<C-n>", run = "shell 'ripdrag -x -i \"$@\"' --orphan", desc = "Drag and drop selected files" },
-  # Drop to shell
-	{ on = "`", run = 'shell "$SHELL" --block', desc = "Drop to terminal here" },
   #	{on   = "l", run  = "plugin smart-enter", desc = "Enter the child directory, or open the file"},
   # Copy selected files to the system clipboard while yanking
 	{on  = "y", run = [ 'shell -- for path in %s; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank"]},
