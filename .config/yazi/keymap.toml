@@ -6,7 +6,7 @@
 prepend_keymap = [
   #Zoom preview images
   { on = "+", run = "plugin zoom 1", desc = "Zoom in hovered file" },
-	{ on = "-", run = "plugin zoom -1", desc = "Zoom out hovered file" },
+	{ on = "_", run = "plugin zoom -1", desc = "Zoom out hovered file" },
   # Drag and drop
 	{ on = "<C-n>", run = "shell 'ripdrag -x -i \"$@\"' --orphan", desc = "Drag and drop selected files" },
   # Drop to shell
@@ -29,6 +29,11 @@ prepend_keymap = [
 	{ on   =["@", "+"], run  = "plugin zoom 1", desc = "Zoom in hovered file"},
 	{ on   = ["@", "-"], run  = "plugin zoom -1", desc = "Zoom out hovered file"},
 
+  # Open with an ad-hoc command (background/GUI)
+	{ on = ["!", "o"], run = "plugin open-with-cmd", desc = "Open with custom command" },
+
+	# Open with an ad-hoc command (blocking/TUI - like running an alternative CLI editor)
+	{ on = ["!", "O"], run = "plugin open-with-cmd -- block", desc = "Open with custom terminal command" },
 ### Sudo
   # Create / Delete
 	{ on = ["!", "a"], run = "plugin sudo -- create", desc = "Sudo create" },
