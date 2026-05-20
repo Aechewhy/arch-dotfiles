@@ -138,6 +138,11 @@ use = "AminurAlam/yazi-plugins:preview-git"
 rev = "bbeb314"
 hash = "ba369f2f02be9e932cf7882c113d6844"
 
+[[plugin.deps]]
+use = "pakhromov/paste-navigate"
+rev = "385bbbe"
+hash = "8e0a97686ca3e22cdc7a82407323ca4e"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"
