@@ -15,6 +15,26 @@ light = "dracula"
 
 # : }}}
 
+[git]
+# 1. Colors and Formatting
+# unknown   = { fg = "#7f8490" }
+# modified  = { fg = "#7daea3" }
+# added     = { fg = "#a9b665" }
+# untracked = { fg = "#d3869b" }
+# ignored   = { fg = "#7f8490", italic = true }
+# deleted   = { fg = "#ea6962", bold = true }
+# updated   = { fg = "#e78a4e" }
+# clean     = { fg = "#a9b665" }
+
+# 2. Text / Nerd Font Signs
+unknown_sign   = "░"
+modified_sign  = "󰏫" # Or just use "M"
+added_sign     = "" # Or just use "A"
+untracked_sign = "" # Or just use "?"
+ignored_sign   = "◌" # Or just use "I"
+deleted_sign   = "" # Or just use "D"
+updated_sign   = "" # Or just use "U"
+clean_sign     = "✔"
 
 # : App {{{
 
