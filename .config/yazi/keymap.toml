@@ -4,7 +4,12 @@
 
 [mgr]
 prepend_keymap = [
+  # Drag and drop
+	{ on = "<C-n>", run = "shell 'ripdrag -x -i \"$@\"' --orphan", desc = "Drag and drop selected files" },
+  # Drop to shell
+	{ on = "`", run = 'shell "$SHELL" --block', desc = "Drop to terminal here" },
   #	{on   = "l", run  = "plugin smart-enter", desc = "Enter the child directory, or open the file"},
+  # Copy selected files to the system clipboard while yanking
 	{on  = "y", run = [ 'shell -- for path in %s; do echo "file://$path"; done | wl-copy -t text/uri-list', "yank"]},
 
 	{on = "q", run = "plugin confirm-quit", desc = "Confirm before quitting if multiple tabs are open"},
@@ -12,15 +17,33 @@ prepend_keymap = [
 	{on = [ "g", "r" ], run = 'shell -- ya emit cd "$(git rev-parse --show-toplevel)"', desc="Go back to the root of the current Git repository"},
 ### Preview
 	{ on = ["@","p"], run = "plugin toggle-pane min-parent", desc = "Toggle parent" },
-    { on = ["@" ,"P" ], run = "plugin toggle-pane max-parent", desc = "Maximize parent" },
-    { on = ["@" ,"c" ], run = "plugin toggle-pane min-current", desc = "Toggle current" },
-    { on = ["@" ,"C" ], run = "plugin toggle-pane max-current", desc = "Maximize current" },
-    { on = ["@" ,"n" ], run = "plugin toggle-pane min-preview", desc = "Toggle preview" },
-    { on = ["@" ,"N" ], run = "plugin toggle-pane min-preview", desc = "Maximize preview" },
-    { on = ["@" ,"0" ], run = "plugin toggle-pane reset", desc = "Reset pane ratio" },
+  { on = ["@" ,"P" ], run = "plugin toggle-pane max-parent", desc = "Maximize parent" },
+  { on = ["@" ,"c" ], run = "plugin toggle-pane min-current", desc = "Toggle current" },
+  { on = ["@" ,"C" ], run = "plugin toggle-pane max-current", desc = "Maximize current" },
+  { on = ["@" ,"n" ], run = "plugin toggle-pane min-preview", desc = "Toggle preview" },
+  { on = ["@" ,"N" ], run = "plugin toggle-pane min-preview", desc = "Maximize preview" },
+  { on = ["@" ,"0" ], run = "plugin toggle-pane reset", desc = "Reset pane ratio" },
 	{ on   =["@", "+"], run  = "plugin zoom 1", desc = "Zoom in hovered file"},
 	{ on   = ["@", "-"], run  = "plugin zoom -1", desc = "Zoom out hovered file"},
 
+### Sudo
+  # Create / Delete
+	{ on = ["!", "a"], run = "plugin sudo -- create", desc = "Sudo create" },
+	{ on = ["!", "d"], run = "plugin sudo -- remove", desc = "Sudo trash" },
+	{ on = ["!", "D"], run = "plugin sudo -- remove --permanently", desc = "Sudo permanent delete" },
+	
+	# Rename / Chmod
+	{ on = ["!", "r"], run = "plugin sudo -- rename", desc = "Sudo rename" },
+	{ on = ["!", "m"], run = "plugin sudo -- chmod", desc = "Sudo chmod" },
+	
+	# Paste Operations
+	{ on = ["!", "p", "p"], run = "plugin sudo -- paste", desc = "Sudo paste" },
+	{ on = ["!", "P"], run = "plugin sudo -- paste --force", desc = "Sudo paste (force/overwrite)" },
+	
+	# Symlinking & Hardlinking
+	{ on = ["!", "p", "l"], run = "plugin sudo -- link", desc = "Sudo link (absolute)" },
+	{ on = ["!", "p", "r"], run = "plugin sudo -- link --relative", desc = "Sudo link (relative)" },
+	{ on = ["!", "p", "L"], run = "plugin sudo -- hardlink", desc = "Sudo hardlink" },
 
 ### Navigating parent directory
 	{ on = "K", run = "plugin parent-arrow -1", desc = "Go up in parent directory"},

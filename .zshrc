@@ -20,6 +20,17 @@ function y() {
 	[ -n "$cwd" ] && [ "$cwd" != "$PWD" ] && builtin cd -- "$cwd"
 	rm -f -- "$tmp"
 }
+# SUDO YAZI (sy) - Runs Yazi as root, but changes directory for your normal user
+function sy() {
+	local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+	sudo yazi "$@" --cwd-file="$tmp"
+	IFS= read -r -d '' cwd < "$tmp"
+	if [ -n "$cwd" ] && [ "$cwd" != "$PWD" ]; then
+		# Try to cd, and if it fails, print a helpful warning
+		builtin cd -- "$cwd" || echo "\n⚠️  Cannot 'cd' into $cwd (Normal user lacks permissions)"
+	fi
+	rm -f -- "$tmp"
+}
 ### PROJECTs PLUGIN
 function yap() {
     local yaziProject="$1"

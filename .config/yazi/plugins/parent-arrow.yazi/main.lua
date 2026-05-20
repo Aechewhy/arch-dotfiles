@@ -1,7 +1,9 @@
 --- @sync entry
 local function entry(_, job)
 	local parent = cx.active.parent
-	if not parent then return end
+	if not parent then
+		return
+	end
 
 	local target = parent.files[parent.cursor + 1 + job.args[1]]
 	if target and target.cha.is_dir then
@@ -10,3 +12,4 @@ local function entry(_, job)
 end
 
 return { entry = entry }
+

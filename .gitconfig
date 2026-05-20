@@ -8,10 +8,12 @@
 [credential]
 	helper = store
 [core]
-	pager = nvim -R
+	pager = nvim -R -
 [alias]
   st = status
   co = checkout
   br = branch
   cm = commit
   lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[pager]
+	branch = false
