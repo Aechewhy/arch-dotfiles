@@ -1,12 +1,17 @@
-
-
 # ~/.config/zsh/prompt.zsh
+
+# Define a quick function to generate the text indicator dynamically
+yazi_indicator() {
+  if [ -n "$YAZI_LEVEL" ]; then
+    # Displays an insulated indicator block only when inside a Yazi subshell
+    echo "%F{magenta}󰇥 (yazi subshell)%f"
+  fi
+}
 
 autoload -Uz colors add-zsh-hook
 colors
 
 # Colors
-
 C_RESET='%f'
 C_USER='%F{cyan}'
 C_HOST='%F{blue}'
@@ -26,24 +31,22 @@ GIT_COLOR_RESET='%f'
 
 # Icons
 DIRECTORY_ICON=""
-
 GIT_ICON=""
 GIT_MODIFIED_ICON=""    # modified (unstaged)
 GIT_STAGED_ICON="●"      # staged
 GIT_UNTRACKED_ICON="?"   # untracked
 GIT_DELETED_ICON="✖"     # deleted
 
-#Command run time
-
+# Command run time
 CMD_START_TIME=0
 CMD_DURATION=""
 
 function prompt_preexec() {
   CMD_START_TIME=$EPOCHREALTIME
 }
+
 function prompt_precmd() {
   CMD_DURATION=""
-
   (( CMD_START_TIME == 0 )) && return
 
   local elapsed
@@ -55,15 +58,15 @@ function prompt_precmd() {
   CMD_DURATION=$(printf "󱦟 %.2fs" "$elapsed")
   CMD_START_TIME=0
 }
+
 autoload -Uz add-zsh-hook
 add-zsh-hook preexec prompt_preexec
 add-zsh-hook precmd prompt_precmd
-# Git
 
+# Git
 git_branch() {
   git symbolic-ref --short HEAD 2>/dev/null
 }
-
 
 git_dirty_icons() {
   local git_status icons=""
@@ -87,18 +90,9 @@ git_dirty_icons() {
 
   echo "$icons"
 }
-# update_git() {
-#   if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-#     GIT_INFO=" $(git_branch)$(git_dirty)"
-#   else
-#     GIT_INFO=""
-#   fi
-# }
 
 update_git() {
   if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
-    local branch
-    branch=$(git symbolic-ref --short HEAD 2>/dev/null)
     GIT_INFO="${GIT_ICON} $(git_branch)$(git_dirty_icons)"
   else
     GIT_INFO=""
@@ -109,18 +103,19 @@ add-zsh-hook chpwd update_git
 add-zsh-hook precmd update_git
 
 STATUS_SYMBOL='%(?.%F{green}✔.%F{red}✘)%f'
-# Divider
 
+# Divider
 divider() {
   local char="-"
   printf '%*s' "$COLUMNS" '' | tr ' ' "$char"
 }
 
+# Master Prompt Setup
 PROMPT='
+$(yazi_indicator)
 %F{white}$(divider)%f
 %F{cyan}%n%f@%F{cyan}%m%f %F{blue}${CMD_DURATION}%f %F{magenta}${GIT_INFO}%f  
 %F{yellow}${DIRECTORY_ICON}%f %F{yellow}%~%f
 ${STATUS_SYMBOL} %F{red}󰅂%f '
 
 RPROMPT='%F{blue} %D{%a|%d/%m/%y|%H:%M:%S}%f'
-
