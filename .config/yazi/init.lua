@@ -9,6 +9,10 @@ require("git"):setup({
 	-- Order of status signs showing in the linemode
 	order = 1500,
 })
+require("custom-shell"):setup({
+	history_path = "default",
+	save_history = true,
+})
 
 -- Show symlink in status bar
 Status:children_add(function(self)

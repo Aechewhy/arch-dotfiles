@@ -123,6 +123,11 @@ use = "yazi-rs/plugins:mount"
 rev = "5d5c480"
 hash = "e3260d0b1feded8c8e3ae3afa1169e30"
 
+[[plugin.deps]]
+use = "AnirudhG07/custom-shell"
+rev = "3449686"
+hash = "8009873342496fdb042bba09e239eef3"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"
