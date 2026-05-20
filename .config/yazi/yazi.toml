@@ -96,6 +96,10 @@ image_alloc      = 1073741824        # = 1024*1024*1024 = 1024MB
 
 [plugin]
 fetchers = [
+	# Git Status (Remove if Yazi > v26.1.22)
+	{ group = "git", url = "*",  run = "git" },
+	{ group = "git", url = "*/", run = "git" },
+
 	# Mimetype
 	{ group = "mime", url = "*/",         run = "mime.dir", prio = "high" },
 	{ group = "mime", url = "local://*",  run = "mime.local", prio = "high" },
