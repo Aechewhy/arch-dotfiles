@@ -141,6 +141,7 @@ prepend_previewers = [
     # Adobe Illustrator, Adobe Photoshop is image/adobe.photoshop, already handled above
     { mime = "application/postscript", run = "mediainfo" },
     { url = "*/", run = "eza-preview"},
+    { url = '**/.git/', run = 'preview-git' },
     
 ]
 preloaders = [

@@ -133,6 +133,11 @@ use = "ahkohd/eza-preview"
 rev = "dc9c103"
 hash = "949fc14ee6b6f8565ac7012d338b37c0"
 
+[[plugin.deps]]
+use = "AminurAlam/yazi-plugins:preview-git"
+rev = "bbeb314"
+hash = "ba369f2f02be9e932cf7882c113d6844"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"
