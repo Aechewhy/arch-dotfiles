@@ -118,6 +118,11 @@ use = "yazi-rs/plugins:git"
 rev = "5d5c480"
 hash = "88e56a64b7ce7c4314427452343fef17"
 
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "5d5c480"
+hash = "e3260d0b1feded8c8e3ae3afa1169e30"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"
