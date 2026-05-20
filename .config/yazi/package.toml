@@ -143,6 +143,11 @@ use = "pakhromov/paste-navigate"
 rev = "385bbbe"
 hash = "8e0a97686ca3e22cdc7a82407323ca4e"
 
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "e60e122"
+hash = "fbaf0adc8efc59555b748d36aab62d40"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"

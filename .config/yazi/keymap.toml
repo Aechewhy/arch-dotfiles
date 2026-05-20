@@ -4,6 +4,11 @@
 
 [mgr]
 prepend_keymap = [
+  #Compression.yazi
+	{ on = [ "c", "a", "a" ], run = "plugin compress",         desc = "Archive selected files" },
+	{ on = [ "c", "a", "p" ], run = "plugin compress -- -ph",  desc = "Archive selected files (password+header)" },
+	{ on = [ "c", "a", "l" ], run = "plugin compress -- -l",   desc = "Archive selected files (compression level)" },
+	{ on = [ "c", "a", "u" ], run = "plugin compress -- -phl", desc = "Archive selected files (password+header+level)" },
   { on = [ "P", "g" ], run = "plugin paste-navigate", desc = "Navigate to path" },
   #Eza preview
   { on = [ "e", "t" ], run = "plugin eza-preview",  desc = "Toggle tree/list dir preview" },
