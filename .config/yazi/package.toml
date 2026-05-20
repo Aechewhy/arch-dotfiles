@@ -148,6 +148,11 @@ use = "KKV9/compress"
 rev = "e60e122"
 hash = "fbaf0adc8efc59555b748d36aab62d40"
 
+[[plugin.deps]]
+use = "walldmtd/confirm-open"
+rev = "058b916"
+hash = "c86ac0d7f358e800ef43f7a714d500cb"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"

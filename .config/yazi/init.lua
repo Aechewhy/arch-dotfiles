@@ -94,6 +94,10 @@ require("projects"):setup({
 		level = "info",
 	},
 })
+-- setup() is only needed if you want to change the threshold value
+require("confirm-open"):setup({
+	threshold = 10, -- Change as desired
+})
 -- Restore deleted files
 require("restore"):setup({
 	-- Set the position for confirm and overwrite prompts.
