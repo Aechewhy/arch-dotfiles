@@ -27,7 +27,7 @@ light = "dracula"
 # clean     = { fg = "#a9b665" }
 
 # 2. Text / Nerd Font Signs
-unknown_sign   = "░"
+# unknown_sign   = "░"
 modified_sign  = "󰏫" # Or just use "M"
 added_sign     = "" # Or just use "A"
 untracked_sign = "" # Or just use "?"

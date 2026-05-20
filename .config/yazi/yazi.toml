@@ -140,6 +140,8 @@ prepend_previewers = [
     { mime = "application/subrip", run = "mediainfo" },
     # Adobe Illustrator, Adobe Photoshop is image/adobe.photoshop, already handled above
     { mime = "application/postscript", run = "mediainfo" },
+    { url = "*/", run = "eza-preview"},
+    
 ]
 preloaders = [
 	# Image

@@ -128,6 +128,11 @@ use = "AnirudhG07/custom-shell"
 rev = "3449686"
 hash = "8009873342496fdb042bba09e239eef3"
 
+[[plugin.deps]]
+use = "ahkohd/eza-preview"
+rev = "dc9c103"
+hash = "949fc14ee6b6f8565ac7012d338b37c0"
+
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
 rev = "4a1802a"

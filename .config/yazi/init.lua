@@ -14,37 +14,38 @@ require("custom-shell"):setup({
 	save_history = true,
 })
 
--- Show symlink in status bar
-Status:children_add(function(self)
-	local h = self._current.hovered
-	if h and h.link_to then
-		return " -> " .. tostring(h.link_to)
-	else
-		return ""
-	end
-end, 3300, Status.LEFT)
--- Show user/group of files in status bar
-Status:children_add(function()
-	local h = cx.active.current.hovered
-	if not h or ya.target_family() ~= "unix" then
-		return ""
-	end
+require("eza-preview"):setup({
+	-- Set the tree preview to be default (default: true)
+	default_tree = true,
 
-	return ui.Line({
-		ui.Span(ya.user_name(h.cha.uid) or tostring(h.cha.uid)):fg("magenta"),
-		":",
-		ui.Span(ya.group_name(h.cha.gid) or tostring(h.cha.gid)):fg("magenta"),
-		" ",
-	})
-end, 500, Status.RIGHT)
--- Show username and hostname in heade
-Header:children_add(function()
-	if ya.target_family() ~= "unix" then
-		return ""
-	end
-	return ui.Span(ya.user_name() .. "@" .. ya.host_name() .. ":"):fg("blue")
-end, 500, Header.LEFT)
---PROJECTS
+	-- Directory depth level for tree preview (default: 3)
+	level = 3,
+
+	-- Show file icons
+	icons = true,
+
+	-- Follow symlinks when previewing directories (default: true)
+	follow_symlinks = true,
+
+	-- Show target file info instead of symlink info (default: false)
+	dereference = false,
+
+	-- Show hidden files (default: true)
+	all = true,
+
+	-- Ignore files matching patterns (default: {})
+	-- ignore_glob = "*.log"
+	-- ignore_glob = { "*.tmp", "node_modules", ".git", ".DS_Store" }
+	-- SEE: https://www.linuxjournal.com/content/pattern-matching-bash to learn about glob patterns
+	ignore_glob = {},
+
+	-- Ignore files mentioned in '.gitignore'  (default: true)
+	git_ignore = true,
+
+	-- Show git status (default: false)
+	git_status = false,
+})
+
 require("projects"):setup({
 	event = {
 		save = {
@@ -140,6 +141,37 @@ require("copy-file-contents"):setup({
 	append_char = "\n",
 	notification = true,
 })
+-- Show symlink in status bar
+Status:children_add(function(self)
+	local h = self._current.hovered
+	if h and h.link_to then
+		return " -> " .. tostring(h.link_to)
+	else
+		return ""
+	end
+end, 3300, Status.LEFT)
+-- Show user/group of files in status bar
+Status:children_add(function()
+	local h = cx.active.current.hovered
+	if not h or ya.target_family() ~= "unix" then
+		return ""
+	end
+
+	return ui.Line({
+		ui.Span(ya.user_name(h.cha.uid) or tostring(h.cha.uid)):fg("magenta"),
+		":",
+		ui.Span(ya.group_name(h.cha.gid) or tostring(h.cha.gid)):fg("magenta"),
+		" ",
+	})
+end, 500, Status.RIGHT)
+-- Show username and hostname in heade
+Header:children_add(function()
+	if ya.target_family() ~= "unix" then
+		return ""
+	end
+	return ui.Span(ya.user_name() .. "@" .. ya.host_name() .. ":"):fg("blue")
+end, 500, Header.LEFT)
+--PROJECTS
 
 local pref_by_location = require("pref-by-location")
 pref_by_location:setup({
