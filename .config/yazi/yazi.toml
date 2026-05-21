@@ -99,7 +99,7 @@ fetchers = [
 	# Git Status (Remove if Yazi > v26.1.22)
 	{ group = "git", url = "*",  run = "git" },
 	{ group = "git", url = "*/", run = "git" },
-  { id = "ffmpeg-stats", url = "*", run = "ffmpeg-stats"},
+  { group = "ffmpeg-stats", url = "*.{mp4,mkv,webm,avi,mov,mp3,flac,wav,m4a}", run = "ffmpeg-stats"},
 
 	# Mimetype
 	{ group = "mime", url = "*/",         run = "mime.dir", prio = "high" },
