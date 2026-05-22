@@ -149,7 +149,7 @@
     "powershell.integratedConsole.focusConsoleOnExecute": true,
     "powershell.sideBar.CommandExplorerVisibility": false,
     "prettier.tabWidth": 4,
-    "python.defaultInterpreterPath": "C:\\Users\\LENOVO LEGION\\AppData\\Local\\Microsoft\\WindowsApps\\python3.12.exe",
+    "python.defaultInterpreterPath": "",
     "search.showLineNumbers": true,
     "security.workspace.trust.enabled": false,
     "synthwave84.brightness": 0.9,
