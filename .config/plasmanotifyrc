@@ -13,6 +13,9 @@ Seen=true
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
+[Applications][signal]
+Seen=true
+
 [Applications][timeshift-gtk]
 Seen=true
 
