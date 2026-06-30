@@ -7,5 +7,12 @@
   "spellcheck": false,
   "strictLineBreaks": true,
   "alwaysUpdateLinks": true,
-  "openBehavior": "file:Fractional programming"
+  "openBehavior": "file:Fractional programming",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }
