@@ -146,11 +146,12 @@ plugin=org.kde.plasma.digitalclock
 
 [Containments][161][Applets][183][Configuration]
 popupHeight=451
-popupWidth=525
+popupWidth=810
 
 [Containments][161][Applets][183][Configuration][Appearance]
 customDateFormat=dd/MM/yyyy
 dateFormat=custom
+enabledCalendarPlugins=alternatecalendar
 fontFamily=Roboto Medium
 fontStyleName=Regular
 fontWeight=500
@@ -246,7 +247,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][161][Applets][202][Configuration]
 popupHeight=468
-popupWidth=677
+popupWidth=312
 
 [Containments][161][Applets][202][Configuration][General]
 favoritesPortedToKAstats=true
