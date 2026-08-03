@@ -27,7 +27,7 @@ DialogWidth=809
 
 [Containments][161][Applets][162][Configuration][General]
 iconSpacing=0
-launchers=applications:kitty.desktop,preferred://browser,applications:thorium-browser.desktop,applications:notion.desktop,applications:org.kde.okular.desktop,applications:com.github.johnfactotum.Foliate.desktop,applications:brave-khmlcabibblfpfhmkfpaiblbijoggmaa-Default.desktop,applications:zotero.desktop,preferred://filemanager,applications:obsidian.desktop
+launchers=applications:kitty.desktop,preferred://browser,applications:thorium-browser.desktop,applications:notion.desktop,applications:org.kde.okular.desktop,applications:com.github.johnfactotum.Foliate.desktop,applications:zotero.desktop,preferred://filemanager,applications:obsidian.desktop
 showOnlyCurrentActivity=false
 showOnlyCurrentDesktop=false
 
