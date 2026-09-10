@@ -1,29 +1,40 @@
-#QoL
+################
+# GENERAL
+################
+
 --progress
 
-
-### Where and how to save
+# Save location
 -o "/home/aechewhy/Downloads/%(title)s.%(ext)s"
-### Download a portion of the vid
-#--downloader ffmpeg --downloader-args "ffmpeg_i:-ss 00:00:00 -to 00:03:44"
 
-# Create link to C:\Users\LENOVO LEGION\yt-dlp.conf
 
--x
+################
+# MUSIC
+################
+
+# Keep YouTube's original best audio stream
 -f bestaudio
---audio-format aac
-#--audio-quality 320K
---audio-quality 0
-#--postprocessor-args "ffmpeg:-c:a aac -b:a 320k"
+
+# Embed album artwork and metadata
 --embed-thumbnail
-# --embed-chapters
-### Metadata
 --embed-metadata
---parse-metadata "playlist_index:%(track_number)s" 
+
+# Playlist position → track number
+--parse-metadata "playlist_index:%(track_number)s"
 
 
 ################
-#VIDEO
+# VIDEO
 ################
+
+# Best VP9 WebM video, without audio
 # -f "bestvideo[ext=webm][vcodec=vp9]"
-# --embed-thumbnail
+
+
+################
+# CLIPPING
+################
+
+# Download only a portion of a video
+# --downloader ffmpeg
+# --downloader-args "ffmpeg_i:-ss 00:00:00 -to 00:03:44"
