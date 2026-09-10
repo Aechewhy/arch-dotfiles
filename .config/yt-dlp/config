@@ -1,39 +1,30 @@
 ################
-# GENERAL
-################
-
---progress
-
--o "/home/aechewhy/Downloads/%(title)s.%(ext)s"
-
-
-################
 # MUSIC
 ################
 
-# Download the best available original audio
 -f bestaudio
+-x
+--audio-format aac
+--audio-quality 0
 
-# Embed thumbnail and metadata
 --embed-thumbnail
 --embed-metadata
-
-# Playlist position → track number
 --parse-metadata "playlist_index:%(track_number)s"
+
+-o "/home/aechewhy/Downloads/%(title)s.%(ext)s"
 
 
 ################
 # VIDEO
 ################
 
-# Best VP9 video without audio
 # -f "bestvideo[ext=webm][vcodec=vp9]"
+# --embed-thumbnail
 
 
 ################
 # CLIPPING
 ################
 
-# Download only a portion of a video
 # --downloader ffmpeg
 # --downloader-args "ffmpeg_i:-ss 00:00:00 -to 00:03:44"
