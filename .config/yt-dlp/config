@@ -4,7 +4,6 @@
 
 --progress
 
-# Save location
 -o "/home/aechewhy/Downloads/%(title)s.%(ext)s"
 
 
@@ -12,10 +11,10 @@
 # MUSIC
 ################
 
-# Keep YouTube's original best audio stream
+# Download the best available original audio
 -f bestaudio
 
-# Embed album artwork and metadata
+# Embed thumbnail and metadata
 --embed-thumbnail
 --embed-metadata
 
@@ -27,7 +26,7 @@
 # VIDEO
 ################
 
-# Best VP9 WebM video, without audio
+# Best VP9 video without audio
 # -f "bestvideo[ext=webm][vcodec=vp9]"
 
 
