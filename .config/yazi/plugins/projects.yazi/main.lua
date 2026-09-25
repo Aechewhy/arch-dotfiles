@@ -167,13 +167,29 @@ local _get_current_project = ya.sync(function(state)
     }
 
     for index, tab in ipairs(tabs) do
+        -- store user-set custom name ('tab.pref.name') if non-empty;
+        -- don't use 'tab.name', which falls back to the directory name
+        local name = ""
+        if tab.pref and tab.pref.name and tab.pref.name ~= "" then
+            name = tab.pref.name
+        end
+
         project.tabs[#project.tabs + 1] = {
             idx = index,
             cwd = tostring(tab.current.cwd):gsub("\\", "/"),
+            name = name,
         }
     end
 
     return project
+end)
+
+local _restore_tab = ya.sync(function(state, tab)
+    ya.emit("tab_create", { tab.cwd })
+    -- if available, rename freshly-created (focused) tab with custom name
+    if tab.name then
+        ya.emit("tab_rename", { tab.name })
+    end
 end)
 
 local _save_projects = ya.sync(function(state, projects)
@@ -222,6 +238,22 @@ local save_project = ya.sync(function(state, idx, desc)
     end
 end)
 
+local save_last_project = ya.sync(function(state)
+    local projects = _get_projects()
+    local project = _get_current_project()
+    projects.last = project
+    _save_projects(projects)
+
+    if state.event.save.enable then
+        pcall(ps.pub_to, 0, state.event.save.name, project)
+    end
+
+    if state.notify.enable then
+        local message = string.format("Last project saved")
+        _notify(message)
+    end
+end)
+
 local load_project = ya.sync(function(state, project, desc)
     -- TODO: add more tab properties to restore
 
@@ -236,11 +268,13 @@ local load_project = ya.sync(function(state, project, desc)
     for _, tab in pairs(project.tabs) do
         sorted_tabs[tonumber(tab.idx)] = tab
     end
-    for _, tab in pairs(sorted_tabs) do
-        ya.emit("tab_create", { tab.cwd })
+    for index, tab in ipairs(sorted_tabs) do
+        _restore_tab(tab)
+        if index == 1 then
+            ya.emit("tab_close", { 0 })
+        end
     end
 
-    ya.emit("tab_close", { 0 })
     ya.emit("tab_switch", { project.active_idx - 1 })
 
     if state.last.update_after_load then
@@ -335,10 +369,6 @@ local merge_project = ya.sync(function(state, opt)
     end
 end)
 
-local _merge_tab = ya.sync(function(state, tab)
-    ya.emit("tab_create", { tab.cwd })
-end)
-
 local _merge_event = ya.sync(function(state)
     ps.sub_remote(state.merge.event, function(body)
         if body then
@@ -352,7 +382,7 @@ local _merge_event = ya.sync(function(state)
                 end
 
                 for _, tab in ipairs(sorted_tabs) do
-                    _merge_tab(tab)
+                    _restore_tab(tab)
                 end
 
                 if state.notify.enable then
@@ -361,7 +391,7 @@ local _merge_event = ya.sync(function(state)
                 end
             elseif opt == "current" then
                 local tab = body.tabs[tonumber(body.active_idx)]
-                _merge_tab(tab)
+                _restore_tab(tab)
 
                 if state.notify.enable then
                     local message = "A tab is merged"
@@ -514,15 +544,7 @@ local _load_config = ya.sync(function(state, opts)
     end
     if state.last.update_before_quit then
         ps.sub("key-quit", function(body)
-            local projects = _get_projects()
-            local current_project = _get_current_project()
-            projects.last = current_project
-            _save_projects(projects)
-
-            if state.event.save.enable then
-                pcall(ps.pub_to, 0, state.event.save.name, current_project)
-            end
-
+            save_last_project()
             ya.emit("quit", {})
             return true
         end)
@@ -584,6 +606,11 @@ return {
         if action == "merge" then
             local opt = job.args[2]
             merge_project(opt)
+            return
+        end
+
+        if action == "save_last" then
+            save_last_project()
             return
         end
 

@@ -1,22 +1,22 @@
 [[plugin.deps]]
 use = "yazi-rs/plugins:full-border"
-rev = "5d5c480"
-hash = "7b625412411be411153886894d9acaf"
+rev = "f703392"
+hash = "f281261ff04ad7ec867c3f802a50835f"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-enter"
-rev = "5d5c480"
+rev = "f703392"
 hash = "187cc58ba7ac3befd49c342129e6f1b6"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:toggle-pane"
-rev = "5d5c480"
-hash = "9c7987da2d2a2120dac33abb64132004"
+rev = "f703392"
+hash = "5b2fbef7d1513ce38ff72623a071a5e"
 
 [[plugin.deps]]
 use = "boydaihungst/mediainfo"
-rev = "4f80288"
-hash = "daf12bd7eb26044a8a5f41eeb369c27a"
+rev = "f1cec0b"
+hash = "b1c98c9b9feece13b94ed656a77430bd"
 
 [[plugin.deps]]
 use = "dedukun/relative-motions"
@@ -25,33 +25,33 @@ hash = "e02a788e5b8ae0fb47fd0193dda589cc"
 
 [[plugin.deps]]
 use = "MasouShizuka/projects"
-rev = "198c2ba"
-hash = "5eeb4f0919ce6be5d941a9290c131d7d"
+rev = "181ebaf"
+hash = "ae9710a3a76e48c1db50f5ed6fe6dc23"
 
 [[plugin.deps]]
 use = "MasouShizuka/close-and-restore-tab"
-rev = "5047217"
-hash = "bb24648b1f96f1cef8c1543742189aad"
+rev = "b2153bc"
+hash = "1493e40f8f4f222c9ecb24cf85ccabd2"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:chmod"
-rev = "5d5c480"
-hash = "f0c8c378184d5f8abd1b095a443d336d"
+rev = "f703392"
+hash = "87472b05a8c420100f6a2b9cde1e7746"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:diff"
-rev = "5d5c480"
-hash = "8b1af6b5a69797ee951f2a80ce570818"
+rev = "f703392"
+hash = "14558d2829c0aa05e99c57de8f74d199"
 
 [[plugin.deps]]
 use = "ndtoan96/ouch"
-rev = "406ce6c"
-hash = "f5afc904d5106ee368c8aa2ded43bd74"
+rev = "596b666"
+hash = "c2f4f4aca257dcceafa9e3b828dbf1c9"
 
 [[plugin.deps]]
 use = "pirafrank/what-size"
-rev = "179ebf6"
-hash = "57056b9728006881d580ccabe8154a9c"
+rev = "1cb456f"
+hash = "7699acf73a1079f8a4afef5cec84ce73"
 
 [[plugin.deps]]
 use = "Lil-Dank/lazygit"
@@ -60,18 +60,18 @@ hash = "6ea5f37c7f219671ec504cb8311f889d"
 
 [[plugin.deps]]
 use = "boydaihungst/restore"
-rev = "0e08704"
-hash = "e4d7c06510b4fe5f64ae31fbb4e017d6"
+rev = "864dd05"
+hash = "3070b579618c4831f5d7ca4293c1c275"
 
 [[plugin.deps]]
 use = "uhs-robert/recycle-bin"
-rev = "fa68711"
-hash = "8714306b5cac6359edbacbf545fbd691"
+rev = "fe48a02"
+hash = "edd449b02a169bd8fee052be96a31823"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:zoom"
-rev = "5d5c480"
-hash = "fa268cb59989a87780605fdcfb8d99a9"
+rev = "f703392"
+hash = "558bbb58e3dd36d488280a8f10e7b904"
 
 [[plugin.deps]]
 use = "Deepak22903/kdeconnect-send"
@@ -80,18 +80,18 @@ hash = "869884767c2ef592bfb7f5764f8fcae3"
 
 [[plugin.deps]]
 use = "XYenon/clipboard"
-rev = "315875c"
-hash = "a6c50e29ee52c488a9899944c2285e64"
+rev = "b25ec96"
+hash = "9f07d7de37a430833ef33b92c0bcf8cb"
 
 [[plugin.deps]]
 use = "AnirudhG07/plugins-yazi:copy-file-contents"
-rev = "71545f4"
-hash = "f8530ee84fee95dbcc26bb1d8d8019c7"
+rev = "3f4f1a3"
+hash = "421263a8558fbd2fdb07a75f074cc6e3"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:smart-paste"
-rev = "5d5c480"
-hash = "3f8d49413bc8691b4c652eb417a20178"
+rev = "f703392"
+hash = "5be02722d97561b6f7aec22429aa00be"
 
 [[plugin.deps]]
 use = "imsi32/yatline"
@@ -115,8 +115,8 @@ hash = "722a60eca1b338c9c24bb508d2d48578"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:git"
-rev = "5d5c480"
-hash = "88e56a64b7ce7c4314427452343fef17"
+rev = "f703392"
+hash = "347cc6b190eb0c2fd60513cc7ae37412"
 
 [[plugin.deps]]
 use = "yazi-rs/plugins:mount"
