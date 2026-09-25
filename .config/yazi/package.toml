@@ -100,8 +100,8 @@ hash = "981acbe9b758b1af3a8154c932bb936d"
 
 [[plugin.deps]]
 use = "boydaihungst/pref-by-location"
-rev = "a2fbb05"
-hash = "b4e378df653fa211d22ed04d3c8c1c0a"
+rev = "919b2d0"
+hash = "80468b4806ba5218236f0d95c10f98f5"
 
 [[plugin.deps]]
 use = "TD-Sky/sudo"

@@ -1,5 +1,14 @@
 # pref-by-location
 
+> [!IMPORTANT]
+> This repository is deprecated  
+> This project is no longer actively maintained,  
+> and there will be no more updates to this repository.  
+> If you've made a fork or a newer, actively maintained version of this project,  
+> feel free to share it in the Issues page.  
+> This way, newcomers can easily find an up-to-date alternative.
+> Forks, improvements, and alternative implementations are always welcome!
+
 <!--toc:start-->
 
 - [pref-by-location](#pref-by-location)
@@ -18,14 +27,14 @@ This is a Yazi plugin that save these preferences by location:
 - [show_hidden](https://yazi-rs.github.io/docs/configuration/yazi#mgr.show_hidden)
 
 > [!IMPORTANT]
-> Minimum version: yazi v25.5.31.
+> yazi v26.5.6 and <= v26.9.1.
 >
 > This plugin will conflict with folder-rules. You should remove it.
 > https://yazi-rs.github.io/docs/tips#folder-rules
 
 ## Requirements
 
-- [yazi >= 25.5.31](https://github.com/sxyazi/yazi)
+- [yazi >= 26.5.6](https://github.com/sxyazi/yazi)
 - Tested on Linux.
 
 ## Preferences priority
