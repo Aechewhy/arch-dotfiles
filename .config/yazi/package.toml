@@ -155,8 +155,8 @@ hash = "c86ac0d7f358e800ef43f7a714d500cb"
 
 [[plugin.deps]]
 use = "grimandgreedy/ffmpeg-stats"
-rev = "ffa206f"
-hash = "79347431117e15939c4172d21b678dcb"
+rev = "d982bc7"
+hash = "27aca14c271c36fb2523cfacd7e3bfa1"
 
 [[flavor.deps]]
 use = "yazi-rs/flavors:dracula"
