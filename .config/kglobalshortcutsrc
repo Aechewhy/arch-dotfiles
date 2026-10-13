@@ -290,6 +290,9 @@ _launch=Meta+Return
 [services][net.local.kitty-2.desktop]
 _launch=Meta+Ctrl+N
 
+[services][net.local.kitty-3.desktop]
+_launch=Meta+E
+
 [services][net.local.kitty.desktop]
 _launch=Meta+Shift+N
 
@@ -298,6 +301,9 @@ _launch=Meta+Y
 
 [services][nvim.desktop]
 _launch=Meta+N
+
+[services][org.kde.dolphin.desktop]
+_launch=Meta+Shift+E
 
 [services][org.kde.konsole.desktop]
 _launch=none
