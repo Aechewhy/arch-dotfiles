@@ -180,3 +180,6 @@ ZVM_INSERT_MODE_CURSOR=$ZVM_CURSOR_BLINKING_BEAM
 fastfetch
 export PYTHONPATH=/usr/local/lib/python3.8/site-packages:/usr/local/lib/python3/dist-packages:$PYTHONPATH
 export PATH=/home/aechewhy/tools/Xilinx/Vivado/2021.1/bin:$PATH
+
+# Created by `pipx` on 2026-10-25 10:22:08
+export PATH="$PATH:/home/aechewhy/.dotfiles/.local/bin"
