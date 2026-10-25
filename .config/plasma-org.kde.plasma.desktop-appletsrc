@@ -309,7 +309,7 @@ sortMode=-1
 Color=187,54,218,186
 
 [Containments][203][Wallpaper][org.kde.image][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Album covers/Radiohead/OK Computer (uncropped no logo).png
+Image=file:///home/aechewhy/Pictures/Wallpapers/Album covers/Radiohead/OK Computer (uncropped no title).png
 SlidePaths=/home/aechewhy/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][203][Wallpaper][org.kde.slideshow][General]
