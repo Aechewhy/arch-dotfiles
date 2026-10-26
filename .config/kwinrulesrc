@@ -1,15 +1,5 @@
-[1cc653a8-95fc-44db-a87b-99876d7d9bfe]
-Description=Application settings for md.obsidian.Obsidian
-opacityactive=85
-opacityactiverule=2
-opacityinactive=85
-opacityinactiverule=2
-wmclass=electron md.obsidian.Obsidian
-wmclasscomplete=true
-wmclassmatch=1
-
 [General]
-Order=1cc653a8-95fc-44db-a87b-99876d7d9bfe,steam,d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a,a61e4fcc-5884-4331-9ac7-c09cd7e7c632
+Order=steam,d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a,a61e4fcc-5884-4331-9ac7-c09cd7e7c632
 
 [a61e4fcc-5884-4331-9ac7-c09cd7e7c632]
 Description=kitty

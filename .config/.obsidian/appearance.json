@@ -4,5 +4,9 @@
   "textFontFamily": "JetBrainsMono Nerd Font,RobotoMono Nerd Font Mono",
   "baseFontSizeAction": true,
   "showRibbon": true,
-  "baseFontSize": 19
+  "baseFontSize": 19,
+  "translucency": true,
+  "enabledCssSnippets": [
+    "transparency"
+  ]
 }
