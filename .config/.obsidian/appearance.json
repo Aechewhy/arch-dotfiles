@@ -1,12 +1,10 @@
 {
-  "cssTheme": "Tokyo Night",
+  "cssTheme": "Transparent",
   "monospaceFontFamily": "JetBrainsMono Nerd Font,RobotoMono Nerd Font Mono",
   "textFontFamily": "JetBrainsMono Nerd Font,RobotoMono Nerd Font Mono",
   "baseFontSizeAction": true,
   "showRibbon": true,
   "baseFontSize": 19,
   "translucency": true,
-  "enabledCssSnippets": [
-    "transparency"
-  ]
+  "enabledCssSnippets": []
 }
