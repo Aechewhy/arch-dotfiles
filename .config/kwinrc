@@ -13,7 +13,7 @@ BlurMenus=true
 BlurStrength=3
 NoiseStrength=3
 Saturation=100
-WindowClasses=kitty\norg.wezfurlong.wezterm\ndolphin\nsystemsettings\nmd.obsidian.Obsidian
+WindowClasses=kitty\norg.wezfurlong.wezterm\ndolphin\nsystemsettings\nmd.obsidian.Obsidian\nvesktop
 
 [Effect-blur]
 BlurStrength=6
