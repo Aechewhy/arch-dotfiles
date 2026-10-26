@@ -10,10 +10,10 @@ Rows=1
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=4
+BlurStrength=3
 NoiseStrength=3
 Saturation=100
-WindowClasses=kitty\norg.wezfurlong.wezterm
+WindowClasses=kitty\norg.wezfurlong.wezterm\ndolphin\nsystemsettings
 
 [Effect-blur]
 BlurStrength=6
