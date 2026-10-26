@@ -6,5 +6,6 @@
   "showRibbon": true,
   "baseFontSize": 19,
   "translucency": true,
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [],
+  "accentColor": "#7aa2f7"
 }
