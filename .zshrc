@@ -177,7 +177,8 @@ source /etc/profile.d/wezterm.sh
 source /usr/share/zsh/plugins/zsh-vi-mode/zsh-vi-mode.plugin.zsh #Put this at the last line 
 ZVM_NORMAL_MODE_CURSOR=$ZVM_CURSOR_BLINKING_BLOCK
 ZVM_INSERT_MODE_CURSOR=$ZVM_CURSOR_BLINKING_BEAM
-fastfetch
+#fastfetch
+gifetch -p loading
 export PYTHONPATH=/usr/local/lib/python3.8/site-packages:/usr/local/lib/python3/dist-packages:$PYTHONPATH
 export PATH=/home/aechewhy/tools/Xilinx/Vivado/2021.1/bin:$PATH
 

@@ -1,0 +1,10 @@
+{
+  "gif": {
+    "kind": "file",
+    "path": "image.gif"
+  },
+  "config": {
+    "kind": "file",
+    "path": "fastfetch.jsonc"
+  }
+}
