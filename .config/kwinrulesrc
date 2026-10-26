@@ -1,6 +1,5 @@
 [General]
-count=3
-rules=d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a,a61e4fcc-5884-4331-9ac7-c09cd7e7c632
+Order=steam,d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a,a61e4fcc-5884-4331-9ac7-c09cd7e7c632
 
 [a61e4fcc-5884-4331-9ac7-c09cd7e7c632]
 Description=kitty
@@ -14,8 +13,8 @@ wmclassmatch=1
 [d03895eb-49ef-4500-8b83-67ff3050090d]
 Description=No titlebars
 Enabled=false
-noborder=true
-noborderrule=2
+decorationpolicy=none
+decorationpolicyrule=2
 types=1
 
 [d160b35b-2294-4edc-9918-7ca90962980a]
