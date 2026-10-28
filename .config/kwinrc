@@ -10,8 +10,8 @@ Rows=1
 BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
-BlurStrength=3
-NoiseStrength=3
+BlurStrength=2
+NoiseStrength=0
 Saturation=100
 WindowClasses=kitty\norg.wezfurlong.wezterm\ndolphin\nsystemsettings\nmd.obsidian.Obsidian\nvesktop\nfirefox
 
