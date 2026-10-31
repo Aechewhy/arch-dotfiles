@@ -1,5 +1,5 @@
 ﻿###
-###  vlc 3.0.21
+###  vlc 3.0.24
 ###
 
 ###
@@ -59,20 +59,62 @@
 
 [access_output_rist] # RIST stream output
 
-# RIST target packet size (bytes) (integer)
-#sout-rist-packet-size=1328
+# RIST target payload size (bytes) (integer)
+#sout-rist-packet-size=1316
 
-# RIST data output caching size (ms) (integer)
-#sout-rist-caching=50
+# Virtual Source Port (integer)
+#sout-rist-virt-src-port=1971
+
+# Virtual Destination Port (integer)
+#sout-rist-virt-dst-port=1968
+
+# Multipeer mode (integer)
+#sout-rist-multipeer-mode=0
+
+# Second peer URL (string)
+#sout-rist-peer-url2=
+
+# Third peer URL (string)
+#sout-rist-peer-url3=
+
+# Fourth peer URL (string)
+#sout-rist-peer-url4=
+
+# Max bitrate in Kbps (integer)
+#sout-rist-bandwidth=100000
+
+# RIST nack minimum retry interval (ms) (integer)
+#sout-rist-retry-interval=5
+
+# RIST reorder buffer size (ms) (integer)
+#sout-rist-reorder-buffer=15
+
+# RIST maximum retry count (integer)
+#sout-rist-max-retries=20
+
+# Verbose level (integer)
+#sout-rist-verbose-level=6
 
 # RIST retry-buffer queue size (ms) (integer)
-#sout-rist-buffer-size=0
+#sout-rist-latency=1000
 
-# SSRC used in RTP output (default is random, i.e. 0) (integer)
-#sout-rist-ssrc=0
+# Peer cname (string)
+#sout-rist-cname=
 
-# Stream name (string)
-#sout-rist-stream-name=
+# Rist Profile (integer)
+#sout-rist-profile=2
+
+# Shared Secret (string)
+#sout-rist-secret=
+
+# Encryption type (integer)
+#sout-rist-aes-type=0
+
+# Username used for stream authentication (string)
+#sout-rist-username=
+
+# Password used for stream authentication (string)
+#sout-rist-password=
 
 [udp] # UDP stream output
 
@@ -288,6 +330,9 @@
 
 # ? (integer)
 #sout-chromecast-port=8009
+
+# ? (string)
+#sout-chromecast-device-name=
 
 # ? (boolean)
 #sout-chromecast-video=1
@@ -679,7 +724,7 @@
 #sout-avi-subject=
 
 # Encoder (string)
-#sout-avi-encoder=VLC Media Player - 3.0.21 Vetinari
+#sout-avi-encoder=VLC Media Player - 3.0.24 Vetinari
 
 # Keywords (string)
 #sout-avi-keywords=
@@ -829,6 +874,9 @@
 # Continue playback? (integer)
 #qt-continue=1
 
+# Enable Dark Mode (boolean)
+#qt-dark-palette=0
+
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
 
@@ -890,9 +938,6 @@ qt-privacy-ask=0
 #podcast-urls=
 
 [upnp] # Universal Plug'n'Play
-
-# SAT>IP channel list (string)
-#satip-channelist=auto
 
 # Custom SAT>IP channel list URL (string)
 #satip-channellist-url=
@@ -1095,32 +1140,65 @@ qt-privacy-ask=0
 
 [rist] # RIST input
 
-# RIST maximum packet size (bytes) (integer)
-#packet-size=1472
-
 # RIST demux/decode maximum jitter (default is 5ms) (integer)
-#maximum-jitter=5
-
-# RIST latency (ms) (integer)
-#latency=1000
-
-# RIST nack retry interval (ms) (integer)
-#retry-interval=132
-
-# RIST reorder buffer (ms) (integer)
-#reorder-buffer=70
-
-# RIST maximum retry count (integer)
-#max-retries=10
+#rist-maximum-jitter=5
 
 # RIST nack type, 0 = range, 1 = bitmask. Default is range (integer)
-#nack-type=0
+#rist-nack-type=0
 
-# Disable NACK output packets (boolean)
-#disable-nacks=0
+# Virtual Destination Port Filter (integer)
+#rist-virt-dst-port=0
 
-# Do not check for a valid rtcp message from the encoder (boolean)
-#mcast-blind-nacks=0
+# RIST maximum packet size (bytes) (integer)
+#rist-packet-size=10000
+
+# Second peer URL (string)
+#rist-peer-url2=
+
+# Third peer URL (string)
+#rist-peer-url3=
+
+# Fourth peer URL (string)
+#rist-peer-url4=
+
+# Max bitrate in Kbps (integer)
+#rist-bandwidth=100000
+
+# RIST nack minimum retry interval (ms) (integer)
+#rist-retry-interval=5
+
+# RIST reorder buffer size (ms) (integer)
+#rist-reorder-buffer=15
+
+# RIST maximum retry count (integer)
+#rist-max-retries=20
+
+# Verbose level (integer)
+#rist-verbose-level=6
+
+# RIST retry-buffer queue size (ms) (integer)
+#rist-latency=0
+
+# Peer cname (string)
+#rist-cname=
+
+# Rist Profile (integer)
+#rist-profile=2
+
+# Shared Secret (string)
+#rist-secret=
+
+# Encryption type (integer)
+#rist-aes-type=0
+
+# Timing mode (integer)
+#rist-timing-mode=0
+
+# Username used for stream authentication (string)
+#rist-username=
+
+# Password used for stream authentication (string)
+#rist-password=
 
 [shm] # Shared memory framebuffer
 
@@ -1305,6 +1383,9 @@ qt-privacy-ask=0
 # Password (string)
 #sftp-pwd=
 
+# Private key file (string)
+#sftp-privatekey=
+
 [dtv] # Digital Television and Radio
 
 # DVB adapter (integer)
@@ -1460,8 +1541,11 @@ qt-privacy-ask=0
 # Crypto key length in bytes (integer)
 #key-length=16
 
-#  SRT Stream ID (string)
+# SRT Stream ID (string)
 #streamid=
+
+# SRT mode (integer)
+#mode=0
 
 [concat] # Concatenated inputs
 
@@ -2734,68 +2818,6 @@ sout-x264-tune=film
 # Subtitle justification (integer)
 #ttml-align=0
 
-[qsv] # Intel QuickSync Video encoder for MPEG4-Part10/MPEG2 (aka H.264/H.262)
-
-# Enable software mode (boolean)
-#sout-qsv-software=0
-
-# Codec Profile (string)
-#sout-qsv-h264-profile=unspecified
-
-# Codec Level (string)
-#sout-qsv-h264-level=unspecified
-
-# Codec Profile (string)
-#sout-qsv-mpeg2-profile=unspecified
-
-# Codec Level (string)
-#sout-qsv-mpeg2-level=unspecified
-
-# Group of Picture size (integer)
-#sout-qsv-gop-size=32
-
-# Group of Picture Reference Distance (integer)
-#sout-qsv-gop-refdist=4
-
-# IDR interval (integer)
-#sout-qsv-idr-interval=0
-
-# Target Usage (string)
-#sout-qsv-target-usage=quality
-
-# Rate Control Method (string)
-#sout-qsv-rc-method=vbr
-
-# Quantization parameter (integer)
-#sout-qsv-qp=0
-
-# Quantization parameter for I-frames (integer)
-#sout-qsv-qpi=0
-
-# Quantization parameter for P-frames (integer)
-#sout-qsv-qpp=0
-
-# Quantization parameter for B-frames (integer)
-#sout-qsv-qpb=0
-
-# Maximum Bitrate (integer)
-#sout-qsv-bitrate-max=0
-
-# Accuracy of RateControl (integer)
-#sout-qsv-accuracy=0
-
-# Convergence time of 'avbr' RateControl (integer)
-#sout-qsv-convergence=0
-
-# Number of slices per frame (integer)
-#sout-qsv-num-slice=0
-
-# Number of reference frames (integer)
-#sout-qsv-num-ref-frame=0
-
-# Number of parallel operations (integer)
-#sout-qsv-async-depth=4
-
 [dvbsub] # DVB subtitles decoder
 
 # Subpicture position (integer)
@@ -2822,6 +2844,9 @@ sout-x264-tune=film
 
 # Frames Threads (integer)
 #dav1d-thread-frames=0
+
+# All Layers (boolean)
+#dav1d-all-layers=0
 
 [avcodec] # FFmpeg audio/video decoder
 
@@ -3349,14 +3374,6 @@ sout-x264-tune=film
 
 # Edge visible (boolean)
 #ball-edge-visible=1
-
-[postproc] # Video post processing filter
-
-# Post processing quality (integer)
-#postproc-q=6
-
-# FFmpeg post processing filter chains (string)
-#postproc-name=default
 
 [alphamask] # Alpha mask video filter
 
@@ -4352,7 +4369,7 @@ sout-x264-tune=film
 #rt-offset=0
 
 # Play files randomly forever (boolean)
-#random=0
+random=1
 
 # Repeat all (boolean)
 #loop=0
