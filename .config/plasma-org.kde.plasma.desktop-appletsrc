@@ -251,7 +251,7 @@ plugin=org.kde.plasma.kicker
 
 [Containments][161][Applets][202][Configuration]
 popupHeight=524
-popupWidth=312
+popupWidth=988
 
 [Containments][161][Applets][202][Configuration][General]
 favoritesPortedToKAstats=true
@@ -345,7 +345,7 @@ Image=file:///home/aechewhy/Pictures/Wallpapers/Tokyonight/tokyonight_original.p
 SlidePaths=/home/aechewhy/.local/share/wallpapers/,/usr/share/wallpapers/
 
 [Containments][204][Wallpaper][org.kde.slideshow][General]
-Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/sunset.jpg
+Image=file:///home/aechewhy/Pictures/Wallpapers/Catppuccin/voyager-21.jpg
 SlideInterval=300
 SlidePaths=/home/aechewhy/Pictures/Wallpapers/Catppuccin/,/home/aechewhy/Pictures/Wallpapers/Tokyonight/
 UncheckedSlides=/home/aechewhy/Pictures/Wallpapers/Tokyonight/pacman.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/neovim.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/void_original.png,/home/aechewhy/Pictures/Wallpapers/Tokyonight/Binary.png
