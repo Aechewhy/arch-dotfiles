@@ -42,7 +42,6 @@ NightTemperature=3300
 [Plugins]
 better_blur_dxEnabled=true
 blurEnabled=false
-diminactiveEnabled=true
 dimscreenEnabled=false
 forceblurEnabled=true
 minimizeallEnabled=true
