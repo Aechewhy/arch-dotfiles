@@ -1,0 +1,6 @@
+[Unit]
+Description=Google Drive Offline Music Sync
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rclone bisync %h/Music gdrive:Music
