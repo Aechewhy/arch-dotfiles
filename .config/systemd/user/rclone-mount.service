@@ -1,0 +1,14 @@
+[Unit]
+Description=Google Drive Streaming Mount
+After=network-online.target
+
+[Service]
+Type=notify
+ExecStartPre=/usr/bin/mkdir -p %h/gdrive
+ExecStart=/usr/bin/rclone mount gdrive: %h/gdrive --vfs-cache-mode writes
+ExecStop=/usr/bin/fusermount3 -u %h/gdrive
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=default.target

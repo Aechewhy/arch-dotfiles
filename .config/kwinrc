@@ -11,6 +11,7 @@ BlurDecorations=true
 BlurDocks=true
 BlurMenus=true
 BlurStrength=3
+Brightness=85
 NoiseStrength=0
 Saturation=100
 WindowClasses=kitty\norg.wezfurlong.wezterm\ndolphin\nsystemsettings\nmd.obsidian.Obsidian\nvesktop\nfirefox
