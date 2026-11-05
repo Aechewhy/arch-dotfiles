@@ -53,8 +53,8 @@
 font-family = JetBrains Mono Nerd Font
 font-size = 13
 #WINDOW
-window-padding-x = 2
-window-padding-y = 2
+window-padding-x = 12
+window-padding-y = 12
 window-padding-balance = true
 
 window-vsync = true
@@ -165,7 +165,7 @@ keybind = ctrl+shift+]=write_scrollback_file:open
 keybind = ctrl+==increase_font_size:1
 keybind = ctrl+-=decrease_font_size:1
 keybind = ctrl+0=reset_font_size
-keybind = ctrl+a=select_all
+#keybind = ctrl+a=select_all
 #SCROLL
 keybind = ctrl+home=scroll_to_top
 keybind = ctrl+end=scroll_to_bottom
