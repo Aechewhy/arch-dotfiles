@@ -1,11 +1,11 @@
---- @since 26.1.22
+---@since 26.1.22
 
 local THRESHOLD_DEFAULT = 10
 
+---@return table context Useful values from sync context
 local get_context = ya.sync(function(state)
 	return {
 		threshold = state.threshold,
-		is_visual = cx.active.mode.is_visual,
 		num_selected = #cx.active.selected,
 	}
 end)
