@@ -82,8 +82,8 @@ mouse-shift-capture = true
 mouse-scroll-multiplier = 5
 right-click-action = context-menu
 #CLIPBOARD
-clipboard-read = ask
-clipboard-write = ask
+clipboard-read = allow
+clipboard-write = allow
 clipboard-trim-trailing-spaces = true
 clipboard-paste-protection = false
 copy-on-select = true
