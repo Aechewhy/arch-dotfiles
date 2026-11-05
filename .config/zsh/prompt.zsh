@@ -114,8 +114,7 @@ divider() {
 PROMPT='
 $(yazi_indicator)
 %F{white}$(divider)%f
-%F{cyan}%n%f@%F{cyan}%m%f %F{blue}${CMD_DURATION}%f %F{magenta}${GIT_INFO}%f  
-%F{yellow}${DIRECTORY_ICON}%f %F{yellow}%~%f
-${STATUS_SYMBOL} %F{red}󰅂%f '
+%F{blue}╭─%f %F{cyan}%n%f@%F{cyan}%m%f %F{blue}${CMD_DURATION}%f %F{magenta}${GIT_INFO}%f
+%F{blue}╰─%f %F{cyan}%f%K{cyan}%F{black} %~ %f%k%F{cyan}%f ${STATUS_SYMBOL} %F{blue}❯%f '
 
 RPROMPT='%F{blue} %D{%a|%d/%m/%y|%H:%M:%S}%f'

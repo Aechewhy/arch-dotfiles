@@ -314,9 +314,6 @@ switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
 [services][com.mitchellh.ghostty.desktop]
-_launch=none
-
-[services][kitty.desktop]
 _launch=Meta+Return
 
 [services][net.local.kitty-2.desktop]

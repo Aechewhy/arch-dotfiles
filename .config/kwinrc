@@ -25,6 +25,12 @@ BlurStrength=6
 NoiseStrength=0
 WindowClasses=zen\norg.wezfurlong.wezterm
 
+[Effect-diminactive]
+DimDesktop=true
+DimKeepAbove=true
+DimPanels=true
+Strength=15
+
 [Effect-overview]
 BorderActivate=9
 
@@ -42,6 +48,7 @@ NightTemperature=3300
 [Plugins]
 better_blur_dxEnabled=true
 blurEnabled=false
+diminactiveEnabled=true
 dimscreenEnabled=false
 forceblurEnabled=true
 minimizeallEnabled=true
