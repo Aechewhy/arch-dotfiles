@@ -102,7 +102,7 @@ update_git() {
 add-zsh-hook chpwd update_git
 add-zsh-hook precmd update_git
 
-STATUS_SYMBOL='%(?.%F{green}✔.%F{red}✘)%f'
+STATUS_SYMBOL='%(?.%F{green}.%F{red})%f'
 
 # Divider
 divider() {
@@ -110,11 +110,12 @@ divider() {
   printf '%*s' "$COLUMNS" '' | tr ' ' "$char"
 }
 
+# %F{white}$(divider)%f
 # Master Prompt Setup
 PROMPT='
 $(yazi_indicator)
-%F{white}$(divider)%f
-%F{blue}╭─%f %F{cyan}%n%f@%F{cyan}%m%f %F{blue}${CMD_DURATION}%f %F{magenta}${GIT_INFO}%f
-%F{blue}╰─%f %F{cyan}%f%K{cyan}%F{black} %~ %f%k%F{cyan}%f ${STATUS_SYMBOL} %F{blue}❯%f '
+%F{cyan}%n%f@%F{cyan}%m%f %F{blue}${CMD_DURATION}%f %F{magenta}${GIT_INFO}%f
+%F{blue}╭─%f %F{cyan}%f%K{cyan}%F{black} %~ %f%k%F{cyan}%f
+%F{blue}╰─❯%f '
 
-RPROMPT='%F{blue} %D{%a|%d/%m/%y|%H:%M:%S}%f'
+RPROMPT='${STATUS_SYMBOL} %F{blue} %D{%a|%d/%m/%y|%H:%M:%S}%f'
