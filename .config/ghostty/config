@@ -57,7 +57,7 @@ window-padding-x = 2
 window-padding-y = 2
 window-padding-balance = true
 
-window-vsync = false
+window-vsync = true
 
 window-inherit-working-directory = true
 window-inherit-font-size = true
@@ -142,7 +142,7 @@ custom-shader = ~/.config/ghostty/shaders/sonic_boom_cursor.glsl
 
 theme = TokyoNight
 title = "Ghostty"
-focus-follows-mouse
+focus-follows-mouse = true
 confirm-close-surface = true
 quit-after-last-window-closed = true
 shell-integration = detect
