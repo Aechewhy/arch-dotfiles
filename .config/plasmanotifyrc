@@ -10,10 +10,16 @@ Seen=true
 [Applications][net.lutris.Lutris]
 Seen=true
 
+[Applications][org.nicotine_plus.Nicotine]
+Seen=true
+
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
 
 [Applications][signal]
+Seen=true
+
+[Applications][thorium-browser]
 Seen=true
 
 [Applications][timeshift-gtk]
@@ -24,9 +30,6 @@ Seen=true
 
 [Applications][zen]
 Seen=true
-
-[DoNotDisturb]
-Until=2027,8,10,10,45,46.021
 
 [Notifications]
 PopupPosition=BottomRight

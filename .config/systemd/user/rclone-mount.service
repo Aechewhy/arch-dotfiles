@@ -5,7 +5,7 @@ After=network-online.target
 [Service]
 Type=notify
 ExecStartPre=/usr/bin/mkdir -p %h/gdrive
-ExecStart=/usr/bin/rclone mount gdrive: %h/gdrive --vfs-cache-mode writes
+ExecStart=/usr/bin/rclone mount gdrive: /home/aechewhy/gdrive --vfs-cache-mode writes --drive-skip-gdocs
 ExecStop=/usr/bin/fusermount3 -u %h/gdrive
 Restart=on-failure
 RestartSec=10

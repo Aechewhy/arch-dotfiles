@@ -128,7 +128,7 @@ custom-shader-animation = true
 # custom-shader = ~/.config/ghostty/shaders/glitchy.glsl
 # custom-shader = ~/.config/ghostty/shaders/bettercrt.glsl
 # custom-shader = ~/.config/ghostty/shaders/tft.glsl
-custom-shader = ~/.config/ghostty/shaders/bloom.glsl
+# custom-shader = ~/.config/ghostty/shaders/bloom.glsl
 #CURSOR TAIL
 # custom-shader = ~/.config/ghostty/shaders/cursor_tail.glsl
 # custom-shader = ~/.config/ghostty/shaders/cursor_sweep.glsl

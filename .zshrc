@@ -184,3 +184,7 @@ export PATH=/home/aechewhy/tools/Xilinx/Vivado/2021.1/bin:$PATH
 
 # Created by `pipx` on 2026-10-25 10:22:08
 export PATH="$PATH:/home/aechewhy/.dotfiles/.local/bin"
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/aechewhy/.local/bin:$PATH"

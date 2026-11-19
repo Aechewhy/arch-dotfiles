@@ -44,7 +44,12 @@ ExposeClass=Ctrl+F7,Ctrl+F7\tMeta+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
 Increase Opacity=none,none,Increase Opacity of Active Window by 5%
+JumpToAudioWindow=Meta+Ctrl+A,Meta+Ctrl+A,LeapK: Jump to Audio Window
+JumpToSearchWindow=Meta+Ctrl+F,Meta+Ctrl+F,LeapK: Fuzzy Search Windows
+JumpToWindow=Meta+Alt+Space,Meta+Space,LeapK: Jump to Window
 Kill Window=Meta+Ctrl+Esc,Meta+Ctrl+Esc,Kill Window
+MarkActiveWindow=none,none,LeapK: Toggle Mark Window (Quick)
+MarkActiveWindowWithColor=Meta+Ctrl+Space,Meta+Ctrl+Space,LeapK: Mark Window with Color Picker
 MinimizeAll=Meta+Shift+D,none,Minimize all windows
 MinimizeAllActiveScreen=none,none,Minimize all windows in active screen
 Move Tablet to Next LogicalOutput=none,none,Move the tablet to the next output
@@ -55,7 +60,12 @@ MoveZoomDown=none,none,Move Zoomed Area Downwards
 MoveZoomLeft=none,none,Move Zoomed Area to Left
 MoveZoomRight=none,none,Move Zoomed Area to Right
 MoveZoomUp=none,none,Move Zoomed Area Upwards
+NextRecentWindow=none,none,LeapK: Next Recent Window
+OpenMarkerManager=none,none,LeapK: Open Marker Manager
+OpenWorkspaceManager=none,none,LeapK: Open Workspace Manager
 Overview=Meta+W,Meta+W,Toggle Overview
+PrevRecentWindow=none,none,LeapK: Previous Recent Window
+RecentWindow=none,none,LeapK: Switch to Recent Window
 Setup Window Shortcut=Meta+F12,none,Setup Window Shortcut
 Show Desktop=Meta+D,Meta+D,Peek at Desktop
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Switch One Desktop Down
@@ -110,6 +120,12 @@ Switch to Screen to the Right=none,none,Switch to Screen to the Right
 Toggle Night Color=none,none,Suspend/Resume Night Light
 Toggle Show Compositing=none,none,Toggle “Show Compositing” effect
 Toggle Window Raise/Lower=none,none,Toggle Window Raise/Lower
+ToggleActiveWindowFloating=Meta+Shift+F,Meta+Shift+F,LeapK: Toggle Window Float/Tile
+ToggleActiveWindowOutline=Meta+Ctrl+O,Meta+Ctrl+O,LeapK: Toggle Window Highlight
+ToggleHudGrouping=Meta+Ctrl+G,Meta+Ctrl+G,LeapK: Toggle HUD Window Grouping
+TogglePinActiveWindow=Meta+Ctrl+P,Meta+Ctrl+P,LeapK: Toggle Pin Active Window
+ToggleTilingEdit=none,Meta+Return,LeapK: Tile Edit Mode (Swap  Resize)
+ToggleTilingPresets=none,Meta+T,LeapK: Tiling Presets
 TrackMouse=none,none,Track mouse
 Walk Through Windows=Alt+Tab,Alt+Tab\tMeta+Tab,Walk Through Windows
 Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Tab\tMeta+Shift+Tab,Walk Through Windows (Reverse)
@@ -211,33 +227,33 @@ view_zoom_out=Meta+-,Meta+-,Zoom Out
 
 [kwin][$InverseAction]
 Cycle Overview Opposite=Cycle Overview
-Increase Opacity=Decrease Opacity
+Decrease Opacity=Increase Opacity
 MoveZoomDown=MoveZoomUp
 MoveZoomLeft=MoveZoomRight
-Switch One Desktop Down=Switch One Desktop Up
+Switch One Desktop Up=Switch One Desktop Down
 Switch One Desktop to the Left=Switch One Desktop to the Right
-Switch Window Right=Switch Window Left
-Switch Window Up=Switch Window Down
-Switch to Next Screen=Switch to Previous Screen
+Switch Window Down=Switch Window Up
+Switch Window Left=Switch Window Right
 Switch to Previous Desktop=Switch to Next Desktop
+Switch to Previous Screen=Switch to Next Screen
 Switch to Screen Above=Switch to Screen Below
 Switch to Screen to the Right=Switch to Screen to the Left
-Walk Through Windows=Walk Through Windows (Reverse)
+Walk Through Windows (Reverse)=Walk Through Windows
 Walk Through Windows Alternative (Reverse)=Walk Through Windows Alternative
 Walk Through Windows of Current Application (Reverse)=Walk Through Windows of Current Application
 Walk Through Windows of Current Application Alternative (Reverse)=Walk Through Windows of Current Application Alternative
-Window Grow Horizontal=Window Shrink Horizontal
+Window Grow Vertical=Window Shrink Vertical
 Window One Desktop Up=Window One Desktop Down
-Window One Desktop to the Left=Window One Desktop to the Right
+Window One Desktop to the Right=Window One Desktop to the Left
 Window One Screen Down=Window One Screen Up
-Window One Screen to the Right=Window One Screen to the Left
+Window One Screen to the Left=Window One Screen to the Right
 Window Pack Down=Window Pack Up
-Window Pack Right=Window Pack Left
+Window Pack Left=Window Pack Right
 Window Raise=Window Lower
-Window Shrink Vertical=Window Grow Vertical
+Window Shrink Horizontal=Window Grow Horizontal
 Window to Next Desktop=Window to Previous Desktop
-Window to Previous Screen=Window to Next Screen
-view_zoom_out=view_zoom_in
+Window to Next Screen=Window to Previous Screen
+view_zoom_in=view_zoom_out
 
 [mediacontrol]
 _k_friendly_name=Media Controller
@@ -314,7 +330,13 @@ switch to previous activity=none,none,Switch to Previous Activity
 toggle do not disturb=none,none,Toggle do not disturb
 
 [services][com.mitchellh.ghostty.desktop]
+_launch=none
+
+[services][kitty.desktop]
 _launch=Meta+Return
+
+[services][net.local.ghostty.desktop]
+_launch=Meta+M
 
 [services][net.local.kitty-2.desktop]
 _launch=Meta+Ctrl+N

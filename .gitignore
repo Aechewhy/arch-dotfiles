@@ -22,6 +22,10 @@
 
 *.log
 *.bak
+*.save
+*.backup*
+*.old
+*~
 *.swp
 **/tmp/
 **/temp/
@@ -35,7 +39,7 @@
 **/cache/
 **/caches/
 
-# Secrets
+# Secrets & Credentials
 *.env
 .env.*
 *.key
@@ -44,3 +48,21 @@
 *.p12
 *.pfx
 *.secrets
+.git-credentials
+.config/obs-studio/basic/profiles/*/service.json
+.config/obs-studio/plugin_config/obs-websocket/config.json
+.config/rclone/
+
+# Executables & Binaries in .local/bin
+.local/bin/agy*
+.local/bin/leapk*
+.local/bin/mako-cli
+.local/bin/mako-shader-tool
+.local/bin/mako-ui
+.local/bin/pip*
+.local/bin/wheel
+.local/bin/jsonschema
+.local/bin/aria2p
+
+# App plugin repository caches
+.config/DankMaterialShell/plugins/.repos/

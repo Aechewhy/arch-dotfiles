@@ -1,27 +1,15 @@
 [General]
-Order=steam,d03895eb-49ef-4500-8b83-67ff3050090d,d160b35b-2294-4edc-9918-7ca90962980a,a61e4fcc-5884-4331-9ac7-c09cd7e7c632
+Order=a9e701bc-6258-4903-a185-3b95a8bfb621
 
-[a61e4fcc-5884-4331-9ac7-c09cd7e7c632]
-Description=kitty
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-wmclass=kitty
-wmclassmatch=1
-
-[d03895eb-49ef-4500-8b83-67ff3050090d]
-Description=No titlebars
-Enabled=false
-decorationpolicy=none
-decorationpolicyrule=2
-types=1
-
-[d160b35b-2294-4edc-9918-7ca90962980a]
-Description=Wezterm
-maximizehoriz=true
-maximizehorizrule=3
-maximizevert=true
-maximizevertrule=3
-wmclass=org.wezfurlong.wezterm
-wmclassmatch=1
+[a9e701bc-6258-4903-a185-3b95a8bfb621]
+description=LeapK Tiling: No minimum size limit
+ignoregeometry=true
+ignoregeometryrule=2
+minsize=1,1
+minsizerule=2
+strictgeometry=false
+strictgeometryrule=2
+types=-1
+wmclass=
+wmclasscomplete=false
+wmclassmatch=0
