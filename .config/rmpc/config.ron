@@ -59,12 +59,12 @@
             "gt":         NextTab,
             "<S-Tab>":    PreviousTab,
             "gT":         PreviousTab,
-            "1":          SwitchToTab("Queue"),
-            "2":          SwitchToTab("Directories"),
-            "3":          SwitchToTab("Artists"),
-            "4":          SwitchToTab("Albums"),
-            "5":          SwitchToTab("Playlists"),
-            "6":          SwitchToTab("Search"),
+            "1":          SwitchToTab("󰐑 Queue"),
+            "2":          SwitchToTab("󰉋 Directories"),
+            "3":          SwitchToTab("󰠃 Artists"),
+            "4":          SwitchToTab("󰀥 Albums"),
+            "5":          SwitchToTab("󰲸 Playlists"),
+            "6":          SwitchToTab("󰍉 Search"),
             "<C-u>":      Update,
             "<C-U>":      Rescan,
             "R":          AddRandom,
@@ -145,7 +145,7 @@
     ),
     tabs: [
         (
-            name: "Queue",
+            name: "󰐑 Queue",
             pane: Split(
                 direction: Horizontal,
                 panes: [
@@ -219,7 +219,7 @@
             ),
         ),
         (
-            name: "Directories",
+            name: "󰉋 Directories",
             borders: "ALL",
             border_symbols: Rounded,
             pane: Split(
@@ -229,7 +229,7 @@
             )
         ),
         (
-            name: "Artists",
+            name: "󰠃 Artists",
             borders: "ALL",
             border_symbols: Rounded,
             pane: Split(
@@ -239,7 +239,7 @@
             )
         ),
         (
-            name: "Albums",
+            name: "󰀥 Albums",
             borders: "ALL",
             border_symbols: Rounded,
             pane: Split(
@@ -249,7 +249,7 @@
             )
         ),
         (
-            name: "Playlists",
+            name: "󰲸 Playlists",
             borders: "ALL",
             border_symbols: Rounded,
             pane: Split(
@@ -259,7 +259,7 @@
             )
         ),
         (
-            name: "Search",
+            name: "󰍉 Search",
             borders: "ALL",
             border_symbols: Rounded,
             pane: Split(
