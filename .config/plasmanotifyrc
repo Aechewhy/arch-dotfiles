@@ -12,6 +12,7 @@ Seen=true
 
 [Applications][org.nicotine_plus.Nicotine]
 Seen=true
+ShowPopups=false
 
 [Applications][org.qbittorrent.qBittorrent]
 Seen=true
