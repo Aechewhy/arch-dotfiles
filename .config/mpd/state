@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
 state: pause
-current: 0
-time: 52.49
+current: 15
+time: 56.801
 random: 0
 repeat: 0
 single: 0
@@ -16,4 +16,16 @@ playlist_begin
 1:Pink Floyd/Wish You Were Here/03 Have A Cigar.m4a
 2:Pink Floyd/Wish You Were Here/04 Wish You Were Here.m4a
 3:Pink Floyd/Wish You Were Here/05 Shine On You Crazy Diamond (Parts 6-9).m4a
+4:Radiohead/OK Computer/01 Airbag.flac
+5:Radiohead/OK Computer/02 Paranoid Android.flac
+6:Radiohead/OK Computer/03 Subterranean Homesick Alien.flac
+7:Radiohead/OK Computer/04 Exit Music (for a Film).flac
+8:Radiohead/OK Computer/05 Let Down.flac
+9:Radiohead/OK Computer/06 Karma Police.flac
+10:Radiohead/OK Computer/07 Fitter Happier.flac
+11:Radiohead/OK Computer/08 Electioneering.flac
+12:Radiohead/OK Computer/09 Climbing Up the Walls.flac
+13:Radiohead/OK Computer/10 No Surprises.flac
+14:Radiohead/OK Computer/11 Lucky.flac
+15:Radiohead/OK Computer/12 The Tourist.flac
 playlist_end
