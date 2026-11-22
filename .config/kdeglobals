@@ -133,7 +133,7 @@ ForegroundPositive=179,225,163
 ForegroundVisited=173,142,230
 
 [General]
-BrowserApplication=thorium-browser-avx2.desktop
+BrowserApplication=brave-browser.desktop
 ColorSchemeHash=b97562e9308a74623cceab30d237ce2d67fb72a8
 LastUsedCustomAccentColor=233,61,88
 TerminalApplication=kitty
