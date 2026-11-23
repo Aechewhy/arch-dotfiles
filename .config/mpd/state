@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
 state: play
-current: 8
-time: 184.136
+current: 10
+time: 56.151
 random: 0
 repeat: 0
 single: 0
@@ -22,4 +22,9 @@ playlist_begin
 7:Radiohead/In Rainbows/1-08 House Of Cards.m4a
 8:Radiohead/In Rainbows/1-09 Jigsaw Falling Into Place.m4a
 9:Radiohead/In Rainbows/1-10 Videotape.m4a
+10:King Crimson/In the Court of the Crimson King/01 - King Crimson - 21st Century Schizoid Man.m4a
+11:King Crimson/In the Court of the Crimson King/02 - King Crimson - I Talk to the Wind.m4a
+12:King Crimson/In the Court of the Crimson King/03 - King Crimson - Epitaph.m4a
+13:King Crimson/In the Court of the Crimson King/04 - King Crimson - Moonchild.m4a
+14:King Crimson/In the Court of the Crimson King/05 - King Crimson - The Court of the Crimson King.m4a
 playlist_end
