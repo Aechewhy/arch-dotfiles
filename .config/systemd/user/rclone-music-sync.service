@@ -1,0 +1,8 @@
+[Unit]
+Description=Sync local music folder to Google Drive
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/rclone sync "%h/Music/Tạp âm" "gdrive:Music/Tạp âm" --track-renames
