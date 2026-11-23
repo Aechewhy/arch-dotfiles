@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
-state: pause
-current: 15
-time: 56.801
+state: play
+current: 1
+time: 119.85300000000001
 random: 0
 repeat: 0
 single: 0
@@ -12,20 +12,14 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Pink Floyd/Wish You Were Here/02 Welcome To The Machine.m4a
-1:Pink Floyd/Wish You Were Here/03 Have A Cigar.m4a
-2:Pink Floyd/Wish You Were Here/04 Wish You Were Here.m4a
-3:Pink Floyd/Wish You Were Here/05 Shine On You Crazy Diamond (Parts 6-9).m4a
-4:Radiohead/OK Computer/01 Airbag.flac
-5:Radiohead/OK Computer/02 Paranoid Android.flac
-6:Radiohead/OK Computer/03 Subterranean Homesick Alien.flac
-7:Radiohead/OK Computer/04 Exit Music (for a Film).flac
-8:Radiohead/OK Computer/05 Let Down.flac
-9:Radiohead/OK Computer/06 Karma Police.flac
-10:Radiohead/OK Computer/07 Fitter Happier.flac
-11:Radiohead/OK Computer/08 Electioneering.flac
-12:Radiohead/OK Computer/09 Climbing Up the Walls.flac
-13:Radiohead/OK Computer/10 No Surprises.flac
-14:Radiohead/OK Computer/11 Lucky.flac
-15:Radiohead/OK Computer/12 The Tourist.flac
+0:Radiohead/In Rainbows/1-01 15 Step.m4a
+1:Radiohead/In Rainbows/1-02 Bodysnatchers.m4a
+2:Radiohead/In Rainbows/1-03 Nude.m4a
+3:Radiohead/In Rainbows/1-04 Weird Fishes_Arpeggi.m4a
+4:Radiohead/In Rainbows/1-05 All I Need.m4a
+5:Radiohead/In Rainbows/1-06 Faust Arp.m4a
+6:Radiohead/In Rainbows/1-07 Reckoner.m4a
+7:Radiohead/In Rainbows/1-08 House Of Cards.m4a
+8:Radiohead/In Rainbows/1-09 Jigsaw Falling Into Place.m4a
+9:Radiohead/In Rainbows/1-10 Videotape.m4a
 playlist_end
