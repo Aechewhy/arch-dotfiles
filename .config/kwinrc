@@ -130,6 +130,7 @@ ColorTransitionDuration=2.0
 CursorWarpMode=0
 CustomColor=61, 174, 233
 CustomShaderEnabled=false
+CustomTilingBackup_712b19cd-2bb4-415a-8537-f6d89506c04e_258a9ba0-3d8b-43d9-b224-fe7e9895ff24={"layoutDirection":"horizontal","tiles":[]}
 CustomTilingBackup_78e76747-5efe-4d52-9796-024c36c384c5_258a9ba0-3d8b-43d9-b224-fe7e9895ff24={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 CustomTilingBackup_925b046d-36e3-4059-b39c-35985b1c4ab5_258a9ba0-3d8b-43d9-b224-fe7e9895ff24={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 DrawInside=true
@@ -280,7 +281,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][258a9ba0-3d8b-43d9-b224-fe7e9895ff24]
 padding=4
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[]}
 
 [Tiling][712b19cd-2bb4-415a-8537-f6d89506c04e][3402d134-f027-4b99-9318-2d2fb6bf1cab]
 padding=4
