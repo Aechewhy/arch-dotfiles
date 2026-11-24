@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
 state: play
-current: 32
-time: 119.898
+current: 34
+time: 120.263
 random: 0
 repeat: 0
 single: 0
@@ -47,4 +47,14 @@ playlist_begin
 32:Radiohead/Ok Computer OKNOTOK 1997 2017/Radiohead - OK Computer OKNOTOK 1997 2017 - 02 - 09 - Pearly (Remastered).flac
 33:Radiohead/Ok Computer OKNOTOK 1997 2017/10 - Palo Alto (Remastered).flac
 34:Radiohead/Ok Computer OKNOTOK 1997 2017/Radiohead - OK Computer OKNOTOK 1997 2017 - 02 - 11 - How I Made My Millions (Remastered).flac
+35:Radiohead/In Rainbows/1-01 15 Step.m4a
+36:Radiohead/In Rainbows/1-02 Bodysnatchers.m4a
+37:Radiohead/In Rainbows/1-03 Nude.m4a
+38:Radiohead/In Rainbows/1-04 Weird Fishes_Arpeggi.m4a
+39:Radiohead/In Rainbows/1-05 All I Need.m4a
+40:Radiohead/In Rainbows/1-06 Faust Arp.m4a
+41:Radiohead/In Rainbows/1-07 Reckoner.m4a
+42:Radiohead/In Rainbows/1-08 House Of Cards.m4a
+43:Radiohead/In Rainbows/1-09 Jigsaw Falling Into Place.m4a
+44:Radiohead/In Rainbows/1-10 Videotape.m4a
 playlist_end
