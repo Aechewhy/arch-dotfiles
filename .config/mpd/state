@@ -1,8 +1,8 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
-state: pause
-current: 10
-time: 90.62
+state: play
+current: 24
+time: 107.74000000000001
 random: 0
 repeat: 0
 single: 0
@@ -24,4 +24,27 @@ playlist_begin
 9:Radiohead/The Bends/10 Black Star.m4a
 10:Radiohead/The Bends/11 Sulk.m4a
 11:Radiohead/The Bends/12 Street Spirit (Fade Out).m4a
+12:Radiohead/OK Computer/01 Airbag.flac
+13:Radiohead/OK Computer/02 Paranoid Android.flac
+14:Radiohead/OK Computer/03 Subterranean Homesick Alien.flac
+15:Radiohead/OK Computer/04 Exit Music (for a Film).flac
+16:Radiohead/OK Computer/05 Let Down.flac
+17:Radiohead/OK Computer/06 Karma Police.flac
+18:Radiohead/OK Computer/07 Fitter Happier.flac
+19:Radiohead/OK Computer/08 Electioneering.flac
+20:Radiohead/OK Computer/09 Climbing Up the Walls.flac
+21:Radiohead/OK Computer/10 No Surprises.flac
+22:Radiohead/OK Computer/11 Lucky.flac
+23:Radiohead/OK Computer/12 The Tourist.flac
+24:Radiohead/Ok Computer OKNOTOK 1997 2017/01 - I Promise.flac
+25:Radiohead/Ok Computer OKNOTOK 1997 2017/02 - Man of War.flac
+26:Radiohead/Ok Computer OKNOTOK 1997 2017/03 - Lift.flac
+27:Radiohead/Ok Computer OKNOTOK 1997 2017/04 - Lull (Remastered).flac
+28:Radiohead/Ok Computer OKNOTOK 1997 2017/05 - Meeting in the Aisle (Remastered).flac
+29:Radiohead/Ok Computer OKNOTOK 1997 2017/06 - Melatonin (Remastered).flac
+30:Radiohead/Ok Computer OKNOTOK 1997 2017/07 - A Reminder (Remastered).flac
+31:Radiohead/Ok Computer OKNOTOK 1997 2017/08 - Polyethylene (Parts 1 & 2) (Remastered).flac
+32:Radiohead/Ok Computer OKNOTOK 1997 2017/Radiohead - OK Computer OKNOTOK 1997 2017 - 02 - 09 - Pearly (Remastered).flac
+33:Radiohead/Ok Computer OKNOTOK 1997 2017/10 - Palo Alto (Remastered).flac
+34:Radiohead/Ok Computer OKNOTOK 1997 2017/Radiohead - OK Computer OKNOTOK 1997 2017 - 02 - 11 - How I Made My Millions (Remastered).flac
 playlist_end
